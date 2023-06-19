@@ -168,6 +168,12 @@ IETF's various participation channels: a moderator team for the IETF.
 The creation of this team intends to address the issues identified
 in {{motiv}}.
 
+{:aside}
+> TODO: Decide whether moderation rights remain also with WG chairs,
+> list admins, and others who currently have them, or whether all
+> moderation rights centralize with the moderator team. I somewhat
+> prefer the latter, since it'll be cleaner.
+
 ## Scope
 
 This IETF moderator team consists of a small number of individuals
@@ -197,13 +203,18 @@ appointing moderators, the IETF Chair SHALL refrain from the
 day-to-day operation and management of the moderator team. The
 moderator team MAY decide to consult with IETF Chair when needed.
 
+Because the IESG and IAB are in the appeals chain for moderator team
+decisions (see {{appeals}}), the IETF Chair SHOULD NOT appoint a
+moderator who is serving on the IESG or IAB. If a moderator is
+selected for the IESG or IAB, they SHOULD step down from the
+moderator team soon after.
+
 ## Appeals {#appeals}
 
 Because the moderator team serves at the discretion of the IETF Chair,
-even if the IETF Chair is not otherwise involved in the operation of
-the moderator team, any moderation decision can be appealed to the
-IETF Chair, per {{!RFC2026}}. Decisions by the IETF Chair can be
-appealed to the IESG as a whole, again per {{!RFC2026}}.
+any moderation decision can be appealed to the IETF Chair, per
+{{!RFC2026}}. Decisions by the IETF Chair can be appealed to the IESG
+as a whole, again per {{!RFC2026}}.
 
 ## Team Diversity
 
@@ -217,7 +228,7 @@ they feel comfortable contacting.
 ## Relation to Ombudsteam
 
 The moderator team SHALL complement the efforts of the IETF
-ombudsteam {{OT}}, whose focus on anti-harassment and operation
+ombudsteam {{OT}}, whose focus on anti-harassment and whose operation
 SHALL remain unchanged. The moderator team and ombudsteam are
 expected to work together in cases that may involve both disruptive
 behavior and harassment; they may determine the most effective way to
@@ -249,4 +260,5 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-TODO
+{:aside}
+> TODO
