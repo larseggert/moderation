@@ -1,9 +1,7 @@
 {
   "default": true,
+  "MD022": {"lines_above": 1, "lines_below": false},
   "MD029": {"style": "ordered" },
-  "MD031": false,
-  "MD033": false,
   "MD034": false,
-  "MD040": false,
   "MD041": false
 }
