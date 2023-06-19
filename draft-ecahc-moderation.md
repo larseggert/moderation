@@ -19,28 +19,28 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
-category: info
+title: "IETF Community Moderation"
+# abbrev: "TODO - Abbreviation"
+category: bcp
 
-docname: draft-todo-yourname-protocol-latest
-submissiontype: IETF  # also: "independent", "IAB", or "IRTF"
+docname: draft-ecahc-moderation-latest
+submissiontype: IETF
 number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
-keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+# area: AREA
+# workgroup: WG Working Group
+# keyword:
+#  - next generation
+#  - unicorn
+#  - sparkling distributed ledger
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
+  # group: WG
+  # type: Working Group
+  # mail: WG@example.com
+  # arch: https://example.com/WG
+  github: larseggert/moderation
   latest: https://example.com/LATEST
 
 author:
