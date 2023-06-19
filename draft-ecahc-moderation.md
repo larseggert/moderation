@@ -82,16 +82,16 @@ TODO Abstract
 
 # Introduction
 
-This document proposes the creation of a moderation team for all of
-the IETF's various contribution channels. This moderation team is
-modeled after, and subsumes, the moderation team for the IETF
-discussion list {{?RFC9245}}.
+This document proposes the creation of a moderator team for all of the
+IETF's various contribution channels. This moderator team is modeled
+after, and subsumes, the moderator team for the IETF discussion list
+{{?RFC9245}}.
 
 # Conventions and Definitions
 
 {::boilerplate bcp14-tagged}
 
-# Motivation
+# Motivation {#motiv}
 
 The IETF community has defined general guidelines of conduct for
 personal interaction in the IETF {{?RFC7154}}, and the IESG has
@@ -105,16 +105,20 @@ group with moderating their group's in-person meetings and mailing
 lists, and an IESG statement {{MODML}} describes additional guidance
 to working group chairs. For IETF mailing lists not associated with a
 working group, another IESG statement clarifies {{DP}} that the list
-administrators are tasked with moderation.
+administrators are tasked with moderation. And the IETF list for
+general discussions has, mostly for historic reasons, a team of
+moderators that are not list administrators and operate by a
+different set of processes {{?RFC9245}}.
 
 In addition, {{?RFC3683}} defines a process for revoking an
 individual's posting rights to IETF mailing lists following a
 community last-call of a "PR-action" proposed by the IESG, often in
 response to complaints from the community.
 
-This decentralized approach to moderation of disruptive participation
-through chairs and list administrators, combined with the IESG-led
-process of PR-actions, has proven to be less than ideal:
+This fractured approach to moderation of disruptive participation
+through chairs, list administrators, and moderator teams, combined
+with the IESG-led process of PR-actions, has proven to be less than
+ideal:
 
 * The IETF community has not been able to agree on a common definition
   of disruptive behavior. Therefore, chairs and list administrators
@@ -130,10 +134,10 @@ process of PR-actions, has proven to be less than ideal:
   ways.
 
 * Chairs and list administrators may only enact moderation actions for
-  their single list, which is ill-suited when disruptive behavior
-  spans multiple lists. Also, chairs and list administrators may not
-  be aware of a pattern of disruptive behavior that spans multiple
-  lists, due to not being subscribed to the other lists in question.
+  their single list, which is ill-suited when a pattern of disruptive
+  behavior spans multiple lists. Also, chairs and list administrators
+  may not be fully aware of disruptive behavior that spans multiple
+  lists, due to not being subscribed to some of the affected.
 
 * PR-actions, which can address disruptive behavior across several
   lists, are cumbersome and slow, and the community has not been able
@@ -142,8 +146,8 @@ process of PR-actions, has proven to be less than ideal:
   are used, they are perceived as very heavy-handed.
 
 * For a given mailing list, participants may not feel comfortable
-  reporting disruptive behavior to a chair or list administrator due
-  to personal reasons. For mailing lists not associated with working
+  reporting disruptive behavior to a chair or list administrator, for
+  various reasons. For mailing lists not associated with working
   groups, list administrators are not even publicly identified - they
   can only be contacted through an anonymous alias address. This
   exacerbates the problem, because participants may not be
@@ -157,18 +161,84 @@ process of PR-actions, has proven to be less than ideal:
   How disruptive behavior is moderated in these channels is currently
   undefined.
 
-# Scope
+# IETF Moderator Team
 
-These channels currently include mailing lists, chat channels and
-in-person and remote meetings.
+This document proposes a different, uniform approach to moderating the
+IETF's various participation channels: a moderator team for the IETF.
+The creation of this team intends to address the issues identified
+in {{motiv}}.
 
-This team SHALL also moderate participation in other future channels.
+## Scope
 
-# Appeals
+This IETF moderator team consists of a small number of individuals
+that SHALL moderate all the IETF's various current and future
+participation channels. At present, those include mailing lists, chat
+channels, and in-person and remote meetings.
+
+The moderator team SHALL operate according to a consistent and uniform
+set of criteria, processes, and actions. The moderator team SHALL
+independently define and execute their role. They SHALL maintain a
+public set of moderation criteria, processes, actions, and other
+material that allows the community to understand and comment on the
+role of the team. The moderator team SHOULD consider adopting
+moderation criteria, processes, and actions that other technical
+communities have found suitable.
+
+The moderator team MAY initiate moderation actions by itself;
+individual participants SHOULD also alert the team to disruptive
+behavior they observe. Participants should be able contact the
+moderator team in ways that are, ideally, integrated into the various
+participation channels the IETF offers.
+
+## Membership
+
+The IETF Chair appoints members of the moderator team. Apart from
+appointing moderators, the IETF Chair SHALL refrain from the
+day-to-day operation and management of the moderator team. The
+moderator team MAY decide to consult with IETF Chair when needed.
+
+## Appeals {#appeals}
+
+Because the moderator team serves at the discretion of the IETF Chair,
+even if the IETF Chair is not otherwise involved in the operation of
+the moderator team, any moderation decision can be appealed to the
+IETF Chair, per {{!RFC2026}}. Decisions by the IETF Chair can be
+appealed to the IESG as a whole, again per {{!RFC2026}}.
+
+## Team Diversity
+
+Due to the global nature of the IETF, the membership of this team
+SHOULD reflect a diversity of time zones and other participant
+characteristics that lets it operate effectively around the clock and
+throughout the year. Team diversity is also important to ensure any
+participant observing problematic behavior can identify a moderator
+they feel comfortable contacting.
+
+## Relation to Ombudsteam
+
+The moderator team SHALL complement the efforts of the IETF
+ombudsteam {{OT}}, whose focus on anti-harassment and operation
+SHALL remain unchanged. The moderator team and ombudsteam are
+expected to work together in cases that may involve both disruptive
+behavior and harassment; they may determine the most effective way to
+do so in each case.
+
+# Changes to Existing RFCs
+
+Creation of the IETF moderator team requires some changes to existing
+RFCs, and also requires the IESG to update a number of their
+statements. This section describes these changes.
+
+TODO
 
 # Security Considerations
 
-This document raises no security issues.
+The usual security considerations {{?RFC3552}} do not apply to this
+document.
+
+Potential abuse of the moderation process for the suppression of
+undesired opinions is counteracted by the availability of an appeals
+process, per {{appeals}}.
 
 # IANA Considerations
 
@@ -179,4 +249,4 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+TODO
