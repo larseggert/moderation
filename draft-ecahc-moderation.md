@@ -25,9 +25,38 @@ venue:
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: "lars@eggert.org"
+    name: Lars Eggert
+    org: NetApp
+    street: Stenbergintie 12 B
+    city: Kauniainen
+    code: "02700"
+    country: FI
+    email: lars@eggert.org
+    uri: https://eggert.org/
+    # role: editor
+ -
+    name: Alissa Cooper
+    org: Cisco
+    email: alcoop@cisco.com
+ -
+    name: Jari Arkko
+    org: Ericsson
+    email: jari.arkko@ericsson.com
+ -
+    name: Russ Housley
+    org: Vigil Security
+    email: housley@vigilsec.com
+ -
+    name: Brian E. Carpenter
+    ins: B. Carpenter
+    org: The University of Auckland
+    abbrev: Univ. of Auckland
+    extaddr: School of Computer Science
+    street: PB 92019
+    city: Auckland
+    code: 1142
+    country: NZ
+    email: brian.e.carpenter@gmail.com
 
 normative:
 
