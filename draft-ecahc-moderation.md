@@ -192,7 +192,7 @@ communities have found suitable.
 
 The moderator team MAY initiate moderation actions by itself;
 individual participants SHOULD also alert the team to disruptive
-behavior they observe. Participants should be able contact the
+behavior they observe. Participants should be able to contact the
 moderator team in ways that are, ideally, integrated into the various
 participation channels the IETF offers.
 
@@ -228,7 +228,7 @@ they feel comfortable contacting.
 ## Relation to Ombudsteam
 
 The moderator team SHALL complement the efforts of the IETF
-ombudsteam {{OT}}, whose focus on anti-harassment and whose operation
+ombudsteam {{OT}}, whose focus on anti-harassment and operation
 SHALL remain unchanged. The moderator team and ombudsteam are
 expected to work together in cases that may involve both disruptive
 behavior and harassment; they may determine the most effective way to
@@ -237,7 +237,7 @@ do so in each case.
 # Changes to Existing RFCs
 
 Creation of the IETF moderator team requires some changes to existing
-RFCs, and also requires the IESG to update a number of their
+RFCs and also requires the IESG to update a number of their
 statements. This section describes these changes.
 
 TODO
