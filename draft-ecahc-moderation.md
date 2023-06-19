@@ -16,12 +16,12 @@ v: 3
 #  - unicorn
 #  - sparkling distributed ledger
 venue:
-  # group: WG
-  # type: Working Group
-  # mail: WG@example.com
-  # arch: https://example.com/WG
-  github: larseggert/moderation
-  latest: https://example.com/LATEST
+#  group: WG
+#  type: Working Group
+#  mail: WG@example.com
+#  arch: https://example.com/WG
+  github: "larseggert/moderation"
+  latest: "https://larseggert.github.io/moderation/draft-ecahc-moderation.html"
 
 author:
  -
