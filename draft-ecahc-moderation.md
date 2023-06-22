@@ -96,7 +96,7 @@ after, and subsumes, the moderator team for the IETF discussion list
 The IETF community has defined general guidelines of conduct for
 personal interaction in the IETF {{?RFC7154}}, and the IESG has
 defined an anti-harassment policy for the IETF {{AHP}} that the IETF
-community has defined anti-harassment procedures {{?RFC7776}} for,
+community has defined anti-harassment procedures {{!RFC7776}} for,
 empowering an ombudsteam {{OT}} to take necessary action.
 
 Dealing with *disruptive* behavior, however, is not part of the role
@@ -233,6 +233,13 @@ SHALL remain unchanged. The moderator team and ombudsteam are
 expected to work together in cases that may involve both disruptive
 behavior and harassment; they may determine the most effective way to
 do so in each case.
+
+The ombudsteam has strict rules of confidentiality. If a moderation
+case overlaps with an ombudsteam case, confidential information
+SHOULD NOT be shared between the teams unless there is no practical
+alternative. In any such case, the members of the moderation team
+MUST treat this information according to the ombudsteam rules
+{{!RFC7776}}.
 
 # Changes to Existing RFCs
 
