@@ -76,7 +76,11 @@ informative:
 
 --- abstract
 
-TODO Abstract
+This document describes the creation of a moderator team for all of the
+IETF's various contribution channels. Without removing existing responsibilities
+for working group management, this team enables a uniform approach to moderation
+of disruptive participation across all mailing lists and other methods of IETF
+collaboration.
 
 --- middle
 
