@@ -213,6 +213,12 @@ moderator who is serving on the IESG or IAB. If a moderator is
 selected for the IESG or IAB, they SHOULD step down from the
 moderator team soon after.
 
+{:aside}
+> TODO: Decide whether Trustees, IETF LLC Directors, LLC staff and/or
+> LLC contractors should be excluded from serving on the moderator
+> team. (They are not in the appeals' path like IESG and IAB members,
+> but some might see a conflict of interest?)
+
 ## Appeals {#appeals}
 
 Because the moderator team serves at the discretion of the IETF Chair,
