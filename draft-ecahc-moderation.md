@@ -200,6 +200,12 @@ behavior they observe. Participants should be able to contact the
 moderator team in ways that are, ideally, integrated into the various
 participation channels the IETF offers.
 
+{:aside}
+> TODO: Decide whether chairs and list admins should retain the
+> ability to moderate their lists in addition to the moderator team,
+> or whether chair and list admins should only inform the moderator
+> team of potentially disruptive behavior and let them deal with it.
+
 ## Membership
 
 The IETF Chair appoints members of the moderator team. Apart from
