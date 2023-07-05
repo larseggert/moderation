@@ -99,8 +99,8 @@ after, and subsumes, the moderator team for the IETF discussion list
 
 The IETF community has defined general guidelines of conduct for
 personal interaction in the IETF {{?RFC7154}}, and the IESG has
-defined an anti-harassment policy for the IETF {{AHP}} that the IETF
-community has defined anti-harassment procedures {{!RFC7776}} for,
+defined an anti-harassment policy for the IETF {{AHP}} for which the IETF
+community has defined anti-harassment procedures {{!RFC7776}},
 empowering an ombudsteam {{OT}} to take necessary action.
 
 Dealing with *disruptive* behavior, however, is not part of the role
@@ -180,7 +180,7 @@ in {{motiv}}.
 
 ## Scope
 
-This IETF moderator team consists of a small number of individuals
+This IETF moderator team consists of a small number of individuals (no less than 3)
 that SHALL moderate all the IETF's various current and future
 participation channels. At present, those include mailing lists, chat
 channels, and in-person and remote meetings.
@@ -198,7 +198,7 @@ The moderator team MAY initiate moderation actions by itself;
 individual participants SHOULD also alert the team to disruptive
 behavior they observe. Participants should be able to contact the
 moderator team in ways that are, ideally, integrated into the various
-participation channels the IETF offers.
+participation channels the IETF offers. It is not expected that the moderator team will be monitoring every IETF channel, but rather that participants will proactively flag concerns about disruptive behavior to the moderator team.
 
 {:aside}
 > TODO: Decide whether chairs and list admins should retain the
