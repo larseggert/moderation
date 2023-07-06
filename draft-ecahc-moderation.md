@@ -31,6 +31,9 @@ author:
 -
     name: Jari Arkko
     org: Ericsson
+    city: Kauniainen
+    code: "02700"
+    country: FI
     email: jari.arkko@ericsson.com
 -
     name: Russ Housley
@@ -199,10 +202,16 @@ The moderator team MAY initiate moderation actions by itself;
 individual participants SHOULD also alert the team to disruptive
 behavior they observe. Participants should be able to contact the
 moderator team in ways that are, ideally, integrated into the various
-participation channels the IETF offers. It is not expected that the
-moderator team will be monitoring every IETF channel, but rather
-that participants will proactively flag concerns about disruptive
-behavior to the moderator team.
+participation channels the IETF offers.
+
+It is not expected that the moderator team will be monitoring every
+IETF channel, but rather that participants will proactively flag
+concerns about disruptive behavior to the moderator team. However,
+the moderator team SHOULD actively monitor a small set of key
+participation channels, including, for example, the IETF discussion
+and last-call mailing lists or the IETF plenary chat channel. The
+moderator team should decide which channels are in this set based on
+their own judgement and community suggestions.
 
 {:aside}
 > TODO: Decide whether chairs and list admins should retain the
@@ -219,9 +228,12 @@ moderator team MAY decide to consult with IETF Chair when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
 decisions (see {{appeals}}), the IETF Chair SHOULD NOT appoint a
-moderator who is serving on the IESG or IAB. If a moderator is
-selected for the IESG or IAB, they SHOULD step down from the
-moderator team soon after.
+moderator who is serving on the IESG or IAB. Individuals serving on
+other bodies to which the NomCom appoints members, such as the IETF
+Trust or the LLC Board, as well as LLC staff and contractors SHALL
+also be excluded from serving on the moderator team. If a moderator
+is assuming any such role, they SHALL step down from the moderator team
+soon after.
 
 ## Appeals {#appeals}
 
