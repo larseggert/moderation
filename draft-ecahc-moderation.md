@@ -203,10 +203,16 @@ The moderator team MAY initiate moderation actions by itself;
 individual participants SHOULD also alert the team to disruptive
 behavior they observe. Participants should be able to contact the
 moderator team in ways that are, ideally, integrated into the various
-participation channels the IETF offers. It is not expected that the
-moderator team will be monitoring every IETF channel, but rather
-that participants will proactively flag concerns about disruptive
-behavior to the moderator team.
+participation channels the IETF offers.
+
+It is not expected that the moderator team will be monitoring every
+IETF channel, but rather that participants will proactively flag
+concerns about disruptive behavior to the moderator team. However,
+the moderator team SHOULD actively monitor a small set of key
+participation channels, including, for example, the IETF discussion
+and last-call mailing lists or the IETF plenary chat channel. The
+moderator team should decide which channels are in this set based on
+their own judgement and community suggestions.
 
 {:aside}
 > TODO: Decide whether chairs and list admins should retain the
