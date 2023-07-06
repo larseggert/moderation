@@ -202,6 +202,7 @@ participation channels the IETF offers. It is not expected that the
 moderator team will be monitoring every IETF channel, but rather
 that participants will proactively flag concerns about disruptive
 behavior to the moderator team.
+
 {:aside}
 > TODO: Decide whether chairs and list admins should retain the
 > ability to moderate their lists in addition to the moderator team,
