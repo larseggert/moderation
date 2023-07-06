@@ -180,10 +180,10 @@ in {{motiv}}.
 
 ## Scope
 
-This IETF moderator team consists of a small number of individuals (no less than 3)
-that SHALL moderate all the IETF's various current and future
-participation channels. At present, those include mailing lists, chat
-channels, and in-person and remote meetings.
+This IETF moderator team consists of a small number of individuals
+(no less than three) that SHALL moderate all the IETF's various
+current and future participation channels. At present, those include
+mailing lists, chat channels, and in-person and remote meetings.
 
 The moderator team SHALL operate according to a consistent and uniform
 set of criteria, processes, and actions. The moderator team SHALL
