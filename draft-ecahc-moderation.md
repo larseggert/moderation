@@ -184,8 +184,16 @@ in {{motiv}}.
 
 This IETF moderator team consists of a small number of individuals
 (no less than three) that SHALL moderate all the IETF's various
-current and future participation channels. At present, those include
-mailing lists, chat channels, and in-person and remote meetings.
+current and future participation channels. At present, these include
+mailing lists, chat channels, and discussions in other systems that
+the IETF or WGs have chosen to employ, such as GitHub repositories,
+Wikis, or issue trackers.
+
+The management and moderation of in-person, remote, and interim
+meetings remains a task of the relevant group's management, such as
+WG chairs. However, it is expected that moderators are available for
+consultation and assistance should issues arise, and they may confer
+with the group management over potential patterns of behavior.
 
 The moderator team SHALL operate according to a consistent and uniform
 set of criteria, processes, and actions. The moderator team SHALL
@@ -261,11 +269,8 @@ behavior and harassment; they may determine the most effective way to
 do so in each case.
 
 The ombudsteam has strict rules of confidentiality. If a moderation
-case overlaps with an ombudsteam case, confidential information
-SHOULD NOT be shared between the teams unless there is no practical
-alternative. In any such case, the members of the moderation team
-MUST treat this information according to the ombudsteam rules
-{{!RFC7776}}.
+case overlaps with an ombudsteam case, confidential information MUST
+NOT be shared between the teams.
 
 # Changes to Existing RFCs
 
