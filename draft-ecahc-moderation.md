@@ -184,8 +184,8 @@ This IETF moderator team consists of a small number of individuals
 (no less than three) that SHALL moderate all the IETF's various
 current and future participation channels. At present, these include
 mailing lists, chat channels, and discussions in other systems that
-the IETF or WGs have chosen to employ, such as GitHub, Wikis, or
-issue trackers.
+the IETF or WGs have chosen to employ, such as GitHub repositories,
+Wikis, or issue trackers.
 
 The management and moderation of in-person, remote, and interim
 meetings remains a task of the relevant group's management, such as
