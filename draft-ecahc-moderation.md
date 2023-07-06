@@ -213,7 +213,7 @@ moderator who is serving on the IESG or IAB. Individuals serving on
 other bodies to which the NomCom appoints members, such as the IETF
 Trust or the LLC Board, as well as LLC staff and contractors SHOULD
 also be excluded from serving on the moderator team. If a moderator
-is joining such a body, they SHOULD step down from the moderator team
+is joining any such body, they SHOULD step down from the moderator team
 soon after.
 
 ## Appeals {#appeals}
