@@ -239,8 +239,11 @@ soon after.
 
 Because the moderator team serves at the discretion of the IETF Chair,
 any moderation decision can be appealed to the IETF Chair, per
-{{!RFC2026}}. Decisions by the IETF Chair can be appealed to the IESG
-as a whole, again per {{!RFC2026}}.
+{{!RFC2026}}. Disagreements with a decision by the IETF Chair can be
+brought to their attention. If this does not lead to a resolution,
+the decision can be appealed as described in {{!RFC2026}}, as with
+any other Area Director decision. In this case, the appeals chain
+starts with an appeal to the entire IESG.
 
 ## Team Diversity
 
