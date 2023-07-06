@@ -269,11 +269,8 @@ behavior and harassment; they may determine the most effective way to
 do so in each case.
 
 The ombudsteam has strict rules of confidentiality. If a moderation
-case overlaps with an ombudsteam case, confidential information
-SHOULD NOT be shared between the teams unless there is no practical
-alternative. In any such case, the members of the moderation team
-MUST treat this information according to the ombudsteam rules
-{{!RFC7776}}.
+case overlaps with an ombudsteam case, confidential information MUST
+NOT be shared between the teams.
 
 # Changes to Existing RFCs
 
