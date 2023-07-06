@@ -192,7 +192,9 @@ public set of moderation criteria, processes, actions, and other
 material that allows the community to understand and comment on the
 role of the team. The moderator team SHOULD consider adopting
 moderation criteria, processes, and actions that other technical
-communities have found suitable.
+communities have found suitable. The moderator team's criteria and
+processes SHALL be developed with community input, but they are not
+expected to be documented in the RFC series.
 
 The moderator team MAY initiate moderation actions by itself;
 individual participants SHOULD also alert the team to disruptive
