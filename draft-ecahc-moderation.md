@@ -175,8 +175,7 @@ in {{motiv}}.
 {:aside}
 > TODO: Decide whether moderation rights remain also with WG chairs,
 > list admins, and others who currently have them, or whether all
-> moderation rights centralize with the moderator team. I somewhat
-> prefer the latter, since it'll be cleaner.
+> moderation rights centralize with the moderator team.
 
 ## Scope
 
@@ -262,7 +261,8 @@ Creation of the IETF moderator team requires some changes to existing
 RFCs and also requires the IESG to update a number of their
 statements. This section describes these changes.
 
-TODO
+{:aside}
+> TODO: Add once we know this I-D will go forward in some form.
 
 # Security Considerations
 
