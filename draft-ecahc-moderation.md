@@ -282,5 +282,6 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-{:aside}
-> TODO
+These individuals suggested improvements to this document:
+
+- Jay Daley
