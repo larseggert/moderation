@@ -211,9 +211,9 @@ Because the IESG and IAB are in the appeals chain for moderator team
 decisions (see {{appeals}}), the IETF Chair SHOULD NOT appoint a
 moderator who is serving on the IESG or IAB. Individuals serving on
 other bodies to which the NomCom appoints members, such as the IETF
-Trust or the LLC Board, as well as LLC staff and contractors SHOULD
+Trust or the LLC Board, as well as LLC staff and contractors SHALL
 also be excluded from serving on the moderator team. If a moderator
-is assuming any such role, they SHOULD step down from the moderator team
+is assuming any such role, they SHALL step down from the moderator team
 soon after.
 
 ## Appeals {#appeals}
