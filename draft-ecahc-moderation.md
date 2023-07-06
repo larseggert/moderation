@@ -31,6 +31,9 @@ author:
 -
     name: Jari Arkko
     org: Ericsson
+    city: Kauniainen
+    code: "02700"
+    country: FI
     email: jari.arkko@ericsson.com
 -
     name: Russ Housley
