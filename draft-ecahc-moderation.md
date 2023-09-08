@@ -189,11 +189,26 @@ mailing lists, chat channels, and discussions in other systems that
 the IETF or WGs have chosen to employ, such as GitHub repositories,
 Wikis, or issue trackers.
 
-The management and moderation of in-person, remote, and interim
-meetings remains a task of the relevant group's management, such as
-WG chairs. However, it is expected that moderators are available for
-consultation and assistance should issues arise, and they may confer
-with the group management over potential patterns of behavior.
+It is important to note that the moderation team only
+moderates *public* IETF participation channels. Their mandate does
+not extend to problematic behavior in private channels, such as
+private chat channels, direct messages, or conversations or other
+interactions outside of meetings. In any such cases, the Ombudsteam
+should be approached.
+
+The management and moderation of participation channels associated
+with various IETF groups, inculding their mailing lists, chat
+channels and in-person, remote, or interim meetings SHOULD remain a
+task of the relevant group's management, such as WG chairs. However,
+it is expected that moderators are available for consultation and
+assistance should issues arise, and they may confer with the group
+management over potential patterns of behavior. When moderators
+observe or are alerted to problematic behavior on such channels, they
+SHOULD consult with the group's management to jointly determine an
+appropriate moderation response. The moderation team should respect
+the views of the group management in such cases, and the group
+management should respect the moderation team's task of upholding an
+overall IETF-wide uniformity for moderation.
 
 The moderator team SHALL operate according to a consistent and uniform
 set of criteria, processes, and actions. The moderator team SHALL
@@ -246,9 +261,9 @@ soon after.
 ## Appeals {#appeals}
 
 Because the moderator team serves at the discretion of the IETF Chair,
-any moderation decision can be appealed to the IETF Chair, per
-{{!RFC2026}}. Disagreements with a decision by the IETF Chair can be
-brought to their attention. If this does not lead to a resolution,
+any moderation decision can be appealed to the IETF Chair by anyone,
+per {{!RFC2026}}. Disagreements with a decision by the IETF Chair can
+be brought to their attention. If this does not lead to a resolution,
 the decision can be appealed as described in {{!RFC2026}}, as with
 any other Area Director decision. In this case, the appeals chain
 starts with an appeal to the entire IESG.
