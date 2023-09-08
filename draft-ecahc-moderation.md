@@ -195,22 +195,12 @@ WG chairs. However, it is expected that moderators are available for
 consultation and assistance should issues arise, and they may confer
 with the group management over potential patterns of behavior.
 
-The moderator team SHALL operate according to a consistent and uniform
-set of criteria, processes, and actions. The moderator team SHALL
-independently define and execute their role. They SHALL maintain a
-public set of moderation criteria, processes, actions, and other
-material that allows the community to understand and comment on the
-role of the team. The moderator team SHOULD consider adopting
-moderation criteria, processes, and actions that other technical
-communities have found suitable. The moderator team's criteria and
-processes SHALL be developed with community input, but they are not
-expected to be documented in the RFC series.
-
 The moderator team MAY initiate moderation actions by itself;
 individual participants SHOULD also alert the team to disruptive
 behavior they observe. Participants should be able to contact the
 moderator team in ways that are, ideally, integrated into the various
-participation channels the IETF offers.
+participation channels the IETF offers. The moderator team SHALL keep
+the identities of participants requesting moderation confidential.
 
 It is not expected that the moderator team will be monitoring every
 IETF channel, but rather that participants will proactively flag
@@ -227,15 +217,35 @@ their own judgment and community suggestions.
 > or whether chair and list admins should only inform the moderator
 > team of potentially disruptive behavior and let them deal with it.
 
+## Transparency
+
+The moderator team SHALL operate according to a consistent and uniform
+set of criteria, processes, and actions. The moderator team SHALL
+independently define and execute their role. They SHALL maintain a
+public set of moderation criteria, processes, actions, and other
+material that allows the community to understand and comment on the
+role of the team. The moderator team SHOULD consider adopting
+moderation criteria, processes, and actions that other technical
+communities have found suitable. The moderator team's criteria and
+processes SHALL be developed with community input, but they are not
+expected to be documented in the RFC series.
+
+The moderator team SHOULD create and maintain a public mailing list
+for the community to discuss both the general moderation criteria and
+individual moderation decisions. To not distract from the
+topic-oriented discussion on other IETF lists, such meta-discussions
+SHOULD be actively redirected to the moderation discussion list.
+
 ## Membership
 
-The IETF Chair appoints members of the moderator team. Apart from
-appointing moderators, the IETF Chair SHALL refrain from the
-day-to-day operation and management of the moderator team. The
-moderator team MAY decide to consult with the IETF Chair when needed.
+The IETF Chair appoints and replaces members of the moderator team.
+Apart from appointing and replacing moderators, the IETF Chair SHALL
+refrain from the day-to-day operation and management of the moderator
+team. The moderator team MAY decide to consult with the IETF Chair
+when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
-decisions (see {{appeals}}), the IETF Chair SHOULD NOT appoint a
+decisions (see {{appeals}}), the IETF Chair MUST NOT appoint a
 moderator who is serving on the IESG or IAB. Individuals serving on
 other bodies to which the NomCom appoints members, such as the IETF
 Trust or the LLC Board, as well as LLC staff and contractors SHALL
@@ -258,9 +268,12 @@ starts with an appeal to the entire IESG.
 Due to the global nature of the IETF, the membership of this team
 SHOULD reflect a diversity of time zones and other participant
 characteristics that lets it operate effectively around the clock and
-throughout the year. Team diversity is also important to ensure any
-participant observing problematic behavior can identify a moderator
-they feel comfortable contacting.
+throughout the year. Ideally, the moderator team should be able to
+respond to issues within a few hours.
+
+Team diversity is also important to ensure any participant observing
+problematic behavior can identify a moderator they feel comfortable
+contacting.
 
 ## Relation to Ombudsteam
 
@@ -301,6 +314,7 @@ This document has no IANA actions.
 
 These individuals suggested improvements to this document:
 
+- Eric Rescorla
 - Jay Daley
 
 --- back
