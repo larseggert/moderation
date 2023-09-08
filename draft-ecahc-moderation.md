@@ -230,6 +230,11 @@ communities have found suitable. The moderator team's criteria and
 processes SHALL be developed with community input, but they are not
 expected to be documented in the RFC series.
 
+{:aside}
+> TODO: This gives the moderator team broad freedom to define
+  processes and actions. Should this document define some boundaries
+  for what the moderator team can do?
+
 The moderator team SHOULD create and maintain a public mailing list
 for the community to discuss both the general moderation criteria and
 individual moderation decisions. To not distract from the
