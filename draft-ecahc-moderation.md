@@ -243,6 +243,13 @@ also be excluded from serving on the moderator team. If a moderator
 is assuming any such role, they SHALL step down from the moderator team
 soon after.
 
+## Training
+
+The IETF is committed to providing and/or funding training for
+appointed moderators as necessary. The IETF Chair will negotiate any
+required funding or resources with IETF Administration LLC
+{{?RFC8711}}.
+
 ## Appeals {#appeals}
 
 Because the moderator team serves at the discretion of the IETF Chair,
