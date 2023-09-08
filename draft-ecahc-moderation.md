@@ -137,7 +137,7 @@ ideal:
   follow {{?RFC3934}} is slow and cumbersome, which makes it
   ill-suited to situations that escalate quickly. It also assumes
   that the originator of disruptive behavior is a misguided
-  participant that can be reasoned with and who will change their
+  participant who can be reasoned with and who will change their
   ways.
 
 - Chairs and list administrators may only enact moderation actions for
@@ -219,7 +219,7 @@ the moderator team SHOULD actively monitor a small set of key
 participation channels, including, for example, the IETF discussion
 and last-call mailing lists or the IETF plenary chat channel. The
 moderator team should decide which channels are in this set based on
-their own judgement and community suggestions.
+their own judgment and community suggestions.
 
 {:aside}
 > TODO: Decide whether chairs and list admins should retain the
@@ -232,7 +232,7 @@ their own judgement and community suggestions.
 The IETF Chair appoints members of the moderator team. Apart from
 appointing moderators, the IETF Chair SHALL refrain from the
 day-to-day operation and management of the moderator team. The
-moderator team MAY decide to consult with IETF Chair when needed.
+moderator team MAY decide to consult with the IETF Chair when needed.
 
 Because the IESG and IAB are in the appeals chain for moderator team
 decisions (see {{appeals}}), the IETF Chair SHOULD NOT appoint a
@@ -297,11 +297,10 @@ process, per {{appeals}}.
 
 This document has no IANA actions.
 
---- back
-
 # Acknowledgments
-{:numbered="false"}
 
 These individuals suggested improvements to this document:
 
 - Jay Daley
+
+--- back
