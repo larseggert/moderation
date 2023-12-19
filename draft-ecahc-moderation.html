@@ -17,23 +17,23 @@ for working group management, this team enables a uniform approach to moderation
 of disruptive participation across all mailing lists and other methods of IETF
 collaboration. 
     " name="description">
-<meta content="xml2rfc 3.18.0" name="generator">
+<meta content="xml2rfc 3.19.0" name="generator">
 <meta content="draft-ecahc-moderation-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.18.0
-    Python 3.11.5
-    ConfigArgParse 1.5.3
+  xml2rfc 3.19.0
+    Python 3.11.6
+    ConfigArgParse 1.7
     google-i18n-address 3.1.0
     intervaltree 3.1.0
     Jinja2 3.1.2
     lxml 4.9.3
-    platformdirs 3.10.0
+    platformdirs 4.1.0
     pycountry 22.3.5
-    PyYAML 6.0
+    PyYAML 6.0.1
     requests 2.31.0
-    setuptools 67.7.2
+    setuptools 68.2.2
     six 1.16.0
-    wcwidth 0.2.6
+    wcwidth 0.2.12
 -->
 <link href="draft-ecahc-moderation.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -656,7 +656,7 @@ sub, sup {
 }
 #toc nav li {
   line-height: 1.3em;
-  margin: 0.75em 0;
+  margin: 2px 0;
   padding-left: 1.2em;
   text-indent: -1.2em;
 }
@@ -749,7 +749,7 @@ hr.addr {
     z-index: 2;
     top: 0;
     right: 0;
-    padding: 0;
+    padding: 1px 0 0 0;
     margin: 0;
     border-bottom: 1px solid #ccc;
     opacity: 0.6;
@@ -873,16 +873,13 @@ hr.addr {
     border-top: none;
     padding-top: 0;
   }
-  figure, pre {
+  figure, pre, .vcard {
     page-break-inside: avoid;
-  }
-  figure {
-    overflow: scroll;
   }
   h1, h2, h3, h4, h5, h6 {
     page-break-after: avoid;
   }
-  h2+*, h3+*, h4+*, h5+*, h6+* {
+  :is(h2, h3, h4, h5, h6)+*, dd {
     page-break-before: avoid;
   }
   pre {
@@ -895,6 +892,9 @@ hr.addr {
   }
   td {
     border-top: 1px solid #ddd;
+  }
+  .toplink {
+    display: none;
   }
 }
 
@@ -996,28 +996,6 @@ address div.right {
   text-align: right;
 }
 
-/* Give the table caption label the same styling as the figcaption */
-
-@media print {
-  .toplink {
-    display: none;
-  }
-
-  /* avoid overwriting the top border line with the ToC header */
-  #toc {
-    padding-top: 1px;
-  }
-
-  /* Avoid page breaks inside dl and author address entries */
-  dd {
-    page-break-before: avoid;
-  }
-  .vcard {
-    page-break-inside: avoid;
-  }
-
-}
-
 /* Dark mode. */
 @media (prefers-color-scheme: dark) {
 :root {
@@ -1054,11 +1032,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">IETF Community Moderation</td>
-<td class="right">September 2023</td>
+<td class="right">December 2023</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Eggert, et al.</td>
-<td class="center">Expires 11 March 2024</td>
+<td class="center">Expires 21 June 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1071,12 +1049,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-ecahc-moderation-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2023-09-08" class="published">8 September 2023</time>
+<time datetime="2023-12-19" class="published">19 December 2023</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-03-11">11 March 2024</time></dd>
+<dd class="expires"><time datetime="2024-06-21">21 June 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1146,7 +1124,7 @@ collaboration.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 11 March 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 21 June 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1285,46 +1263,52 @@ through chairs, list administrators, and moderator teams, combined
 with the IESG-led process of PR-actions, has proven to be less than
 ideal:<a href="#section-3-4" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-3-5.1">The IETF community has not been able to agree on a common definition
+<li class="normal" id="section-3-5.1">
+          <p id="section-3-5.1.1">The IETF community has not been able to agree on a common definition
 of disruptive behavior. Therefore, chairs and list administrators
 apply individually different criteria when making decisions, and
 participants have different expectations for when PR-actions are
-warranted.<a href="#section-3-5.1" class="pilcrow">¶</a>
+warranted.<a href="#section-3-5.1.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-3-5.2">The moderation process that chairs and list administrators need to
+        <li class="normal" id="section-3-5.2">
+          <p id="section-3-5.2.1">The moderation process that chairs and list administrators need to
 follow <span>[<a href="#RFC3934" class="cite xref">RFC3934</a>]</span> is slow and cumbersome, which makes it
 ill-suited to situations that escalate quickly. It also assumes
 that the originator of disruptive behavior is a misguided
 participant who can be reasoned with and who will change their
-ways.<a href="#section-3-5.2" class="pilcrow">¶</a>
+ways.<a href="#section-3-5.2.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-3-5.3">Chairs and list administrators may only enact moderation actions for
+        <li class="normal" id="section-3-5.3">
+          <p id="section-3-5.3.1">Chairs and list administrators may only enact moderation actions for
 their single list, which is ill-suited when a pattern of disruptive
 behavior spans multiple lists. Also, chairs and list administrators
 may not be fully aware of disruptive behavior that spans multiple
-lists, due to not being subscribed to some of the affected.<a href="#section-3-5.3" class="pilcrow">¶</a>
+lists, due to not being subscribed to some of the affected.<a href="#section-3-5.3.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-3-5.4">PR-actions, which can address disruptive behavior across several
+        <li class="normal" id="section-3-5.4">
+          <p id="section-3-5.4.1">PR-actions, which can address disruptive behavior across several
 lists, are cumbersome and slow, and the community has not been able
 to agree on a common definition of disruptive behavior. This has
 led to a situation where PR-actions are rarely used, and when they
-are used, they are perceived as very heavy-handed.<a href="#section-3-5.4" class="pilcrow">¶</a>
+are used, they are perceived as very heavy-handed.<a href="#section-3-5.4.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-3-5.5">For a given mailing list, participants may not feel comfortable
+        <li class="normal" id="section-3-5.5">
+          <p id="section-3-5.5.1">For a given mailing list, participants may not feel comfortable
 reporting disruptive behavior to a chair or list administrator, for
 various reasons. For mailing lists not associated with working
 groups, list administrators are not even publicly identified - they
 can only be contacted through an anonymous alias address. This
 exacerbates the problem, because participants may not be
-comfortable reporting disruptive behavior to an anonymous party.<a href="#section-3-5.5" class="pilcrow">¶</a>
+comfortable reporting disruptive behavior to an anonymous party.<a href="#section-3-5.5.1" class="pilcrow">¶</a></p>
 </li>
-        <li class="normal" id="section-3-5.6">The IETF offers participation not only through in-person meetings
+        <li class="normal" id="section-3-5.6">
+          <p id="section-3-5.6.1">The IETF offers participation not only through in-person meetings
 and mailing lists, which are the two channels of participation for
 which moderation processes are currently defined. IETF business
 also happens in chat channels, remote meeting participation
 systems, virtual meetings, wikis, GitHub repositories, and more.
 How disruptive behavior is moderated in these channels is currently
-undefined.<a href="#section-3-5.6" class="pilcrow">¶</a>
+undefined.<a href="#section-3-5.6.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
 </section>
@@ -1493,7 +1477,8 @@ process, per <a href="#appeals" class="auto internal xref">Section 4.3</a>.<a hr
       </h2>
 <p id="section-8-1">These individuals suggested improvements to this document:<a href="#section-8-1" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-8-2.1">Jay Daley<a href="#section-8-2.1" class="pilcrow">¶</a>
+<li class="normal" id="section-8-2.1">
+          <p id="section-8-2.1.1">Jay Daley<a href="#section-8-2.1.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
 </section>
@@ -1502,6 +1487,7 @@ process, per <a href="#appeals" class="auto internal xref">Section 4.3</a>.<a hr
       <h2 id="name-references">
 <a href="#section-9" class="section-number selfRef">9. </a><a href="#name-references" class="section-name selfRef">References</a>
       </h2>
+<div id="sec-normative-references">
 <section id="section-9.1">
         <h3 id="name-normative-references">
 <a href="#section-9.1" class="section-number selfRef">9.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
@@ -1525,6 +1511,8 @@ process, per <a href="#appeals" class="auto internal xref">Section 4.3</a>.<a hr
 <dd class="break"></dd>
 </dl>
 </section>
+</div>
+<div id="sec-informative-references">
 <section id="section-9.2">
         <h3 id="name-informative-references">
 <a href="#section-9.2" class="section-number selfRef">9.2. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
@@ -1568,6 +1556,7 @@ process, per <a href="#appeals" class="auto internal xref">Section 4.3</a>.<a hr
 <dd class="break"></dd>
 </dl>
 </section>
+</div>
 </section>
 <div id="authors-addresses">
 <section id="appendix-A">
