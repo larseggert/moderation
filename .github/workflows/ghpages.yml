@@ -27,7 +27,7 @@ jobs:
       run: date -u "+date=%FT%T" >>"$GITHUB_OUTPUT"
 
     - name: "Caching"
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           .refcache
@@ -51,7 +51,7 @@ jobs:
         token: ${{ github.token }}
 
     - name: "Archive Built Drafts"
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         path: |
           draft-*.html
