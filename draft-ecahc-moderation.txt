@@ -5,14 +5,14 @@
 Network Working Group                                          L. Eggert
 Internet-Draft                                                    NetApp
 Intended status: Best Current Practice                         A. Cooper
-Expires: 26 July 2024                                              Cisco
+Expires: 19 December 2024                                          Cisco
                                                                 J. Arkko
                                                                 Ericsson
                                                               R. Housley
                                                           Vigil Security
                                                             B. Carpenter
                                                        Univ. of Auckland
-                                                         23 January 2024
+                                                            17 June 2024
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 July 2024.
+   This Internet-Draft will expire on 19 December 2024.
 
 Copyright Notice
 
