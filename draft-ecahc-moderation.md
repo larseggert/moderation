@@ -17,7 +17,7 @@ author:
 
 -
     name: Lars Eggert
-    org: NetApp
+    org: Mozilla
     street: Stenbergintie 12 B
     city: Kauniainen
     code: "02700"
