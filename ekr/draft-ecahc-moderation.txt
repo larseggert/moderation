@@ -3,16 +3,16 @@
 
 
 Network Working Group                                          L. Eggert
-Internet-Draft                                                    NetApp
+Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                         A. Cooper
-Expires: 19 December 2024                                          Cisco
+Expires: 20 December 2024                                          Cisco
                                                                 J. Arkko
                                                                 Ericsson
                                                               R. Housley
                                                           Vigil Security
                                                             B. Carpenter
                                                        Univ. of Auckland
-                                                            17 June 2024
+                                                            18 June 2024
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 December 2024.
+   This Internet-Draft will expire on 20 December 2024.
 
 Copyright Notice
 
@@ -83,9 +83,10 @@ Table of Contents
      4.1.  Scope
      4.2.  Transparency
      4.3.  Membership
-     4.4.  Appeals
-     4.5.  Team Diversity
-     4.6.  Relation to Ombudsteam
+     4.4.  Training
+     4.5.  Appeals
+     4.6.  Team Diversity
+     4.7.  Relation to Ombudsteam
    5.  Changes to Existing RFCs
    6.  Security Considerations
    7.  IANA Considerations
@@ -263,7 +264,7 @@ Table of Contents
    when needed.
 
    Because the IESG and IAB are in the appeals chain for moderator team
-   decisions (see Section 4.4), the IETF Chair MUST NOT appoint a
+   decisions (see Section 4.5), the IETF Chair MUST NOT appoint a
    moderator who is serving on the IESG or IAB.  Individuals serving on
    other bodies to which the NomCom appoints members, such as the IETF
    Trust or the LLC Board, as well as LLC staff and contractors SHALL
@@ -271,7 +272,13 @@ Table of Contents
    is assuming any such role, they SHALL step down from the moderator
    team soon after.
 
-4.4.  Appeals
+4.4.  Training
+
+   The IETF is committed to providing and/or funding training for
+   appointed moderators as necessary.  The IETF Chair will negotiate any
+   required funding or resources with IETF Administration LLC [RFC8711].
+
+4.5.  Appeals
 
    Because the moderator team serves at the discretion of the IETF
    Chair, any moderation decision can be appealed to the IETF Chair, per
@@ -281,7 +288,7 @@ Table of Contents
    other Area Director decision.  In this case, the appeals chain starts
    with an appeal to the entire IESG.
 
-4.5.  Team Diversity
+4.6.  Team Diversity
 
    Due to the global nature of the IETF, the membership of this team
    SHOULD reflect a diversity of time zones and other participant
@@ -293,7 +300,7 @@ Table of Contents
    problematic behavior can identify a moderator they feel comfortable
    contacting.
 
-4.6.  Relation to Ombudsteam
+4.7.  Relation to Ombudsteam
 
    The moderator team SHALL complement the efforts of the IETF
    ombudsteam [OT], whose focus on anti-harassment and operation SHALL
@@ -321,7 +328,7 @@ Table of Contents
 
    Potential abuse of the moderation process for the suppression of
    undesired opinions is counteracted by the availability of an appeals
-   process, per Section 4.4.
+   process, per Section 4.5.
 
 7.  IANA Considerations
 
@@ -391,6 +398,11 @@ Table of Contents
               RFC 7154, DOI 10.17487/RFC7154, March 2014,
               <https://www.rfc-editor.org/rfc/rfc7154>.
 
+   [RFC8711]  Haberman, B., Hall, J., and J. Livingood, "Structure of
+              the IETF Administrative Support Activity, Version 2.0",
+              BCP 101, RFC 8711, DOI 10.17487/RFC8711, February 2020,
+              <https://www.rfc-editor.org/rfc/rfc8711>.
+
    [RFC9245]  Eggert, L. and S. Harris, "IETF Discussion List Charter",
               BCP 45, RFC 9245, DOI 10.17487/RFC9245, June 2022,
               <https://www.rfc-editor.org/rfc/rfc9245>.
@@ -398,7 +410,7 @@ Table of Contents
 Authors' Addresses
 
    Lars Eggert
-   NetApp
+   Mozilla
    Stenbergintie 12 B
    FI-02700 Kauniainen
    Finland
