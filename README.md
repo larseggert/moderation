@@ -11,7 +11,7 @@ This is the working area for the individual Internet-Draft, "IETF Community Mode
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/larseggert/moderation/blob//CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/larseggert/moderation/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
