@@ -5,14 +5,14 @@
 Network Working Group                                          L. Eggert
 Internet-Draft                                                    NetApp
 Intended status: Best Current Practice                         A. Cooper
-Expires: 19 December 2024                                          Cisco
+Expires: 21 December 2024                                          Cisco
                                                                 J. Arkko
                                                                 Ericsson
                                                               R. Housley
                                                           Vigil Security
                                                             B. Carpenter
                                                        Univ. of Auckland
-                                                            17 June 2024
+                                                            19 June 2024
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 December 2024.
+   This Internet-Draft will expire on 21 December 2024.
 
 Copyright Notice
 
@@ -212,8 +212,8 @@ Table of Contents
    with various IETF groups, inculding their mailing lists, chat
    channels and in-person, remote, or interim meetings SHOULD remain a
    task of the relevant group's management, such as WG chairs.  However,
-   it is expected that moderators are available for consultation and
-   assistance should issues arise, and they may confer with the group
+   moderators are available for consultation and assistance should
+   issues arise, and they MAY proactively confer with the group
    management over potential patterns of behavior.  When moderators
    observe or are alerted to problematic behavior on such channels, they
    SHOULD consult with the group's management to jointly determine an
