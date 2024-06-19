@@ -3,7 +3,7 @@
 
 
 Network Working Group                                          L. Eggert
-Internet-Draft                                                    NetApp
+Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                         A. Cooper
 Expires: 21 December 2024                                          Cisco
                                                                 J. Arkko
@@ -82,9 +82,10 @@ Table of Contents
    4.  IETF Moderator Team
      4.1.  Scope
      4.2.  Membership
-     4.3.  Appeals
-     4.4.  Team Diversity
-     4.5.  Relation to Ombudsteam
+     4.3.  Training
+     4.4.  Appeals
+     4.5.  Team Diversity
+     4.6.  Relation to Ombudsteam
    5.  Changes to Existing RFCs
    6.  Security Considerations
    7.  IANA Considerations
@@ -262,7 +263,7 @@ Table of Contents
    team MAY decide to consult with the IETF Chair when needed.
 
    Because the IESG and IAB are in the appeals chain for moderator team
-   decisions (see Section 4.3), the IETF Chair SHOULD NOT appoint a
+   decisions (see Section 4.4), the IETF Chair SHOULD NOT appoint a
    moderator who is serving on the IESG or IAB.  Individuals serving on
    other bodies to which the NomCom appoints members, such as the IETF
    Trust or the LLC Board, as well as LLC staff and contractors SHALL
@@ -270,7 +271,13 @@ Table of Contents
    is assuming any such role, they SHALL step down from the moderator
    team soon after.
 
-4.3.  Appeals
+4.3.  Training
+
+   The IETF is committed to providing and/or funding training for
+   appointed moderators as necessary.  The IETF Chair will negotiate any
+   required funding or resources with IETF Administration LLC [RFC8711].
+
+4.4.  Appeals
 
    Because the moderator team serves at the discretion of the IETF
    Chair, any moderation decision can be appealed to the IETF Chair by
@@ -280,7 +287,7 @@ Table of Contents
    as with any other Area Director decision.  In this case, the appeals
    chain starts with an appeal to the entire IESG.
 
-4.4.  Team Diversity
+4.5.  Team Diversity
 
    Due to the global nature of the IETF, the membership of this team
    SHOULD reflect a diversity of time zones and other participant
@@ -289,7 +296,7 @@ Table of Contents
    participant observing problematic behavior can identify a moderator
    they feel comfortable contacting.
 
-4.5.  Relation to Ombudsteam
+4.6.  Relation to Ombudsteam
 
    The moderator team SHALL complement the efforts of the IETF
    ombudsteam [OT], whose focus on anti-harassment and operation SHALL
@@ -317,7 +324,7 @@ Table of Contents
 
    Potential abuse of the moderation process for the suppression of
    undesired opinions is counteracted by the availability of an appeals
-   process, per Section 4.3.
+   process, per Section 4.4.
 
 7.  IANA Considerations
 
@@ -385,6 +392,11 @@ Table of Contents
               RFC 7154, DOI 10.17487/RFC7154, March 2014,
               <https://www.rfc-editor.org/rfc/rfc7154>.
 
+   [RFC8711]  Haberman, B., Hall, J., and J. Livingood, "Structure of
+              the IETF Administrative Support Activity, Version 2.0",
+              BCP 101, RFC 8711, DOI 10.17487/RFC8711, February 2020,
+              <https://www.rfc-editor.org/rfc/rfc8711>.
+
    [RFC9245]  Eggert, L. and S. Harris, "IETF Discussion List Charter",
               BCP 45, RFC 9245, DOI 10.17487/RFC9245, June 2022,
               <https://www.rfc-editor.org/rfc/rfc9245>.
@@ -392,7 +404,7 @@ Table of Contents
 Authors' Addresses
 
    Lars Eggert
-   NetApp
+   Mozilla
    Stenbergintie 12 B
    FI-02700 Kauniainen
    Finland
