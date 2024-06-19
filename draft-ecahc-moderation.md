@@ -26,8 +26,9 @@ author:
     uri: https://eggert.org/
 -
     name: Alissa Cooper
-    org: Cisco
-    email: alcoop@cisco.com
+    org: Knight-Georgetown Institute (KGI)
+    abbrev: KGI
+    email: alissa@cooperw.in
 -
     name: Jari Arkko
     org: Ericsson
