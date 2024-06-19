@@ -5,7 +5,7 @@
 Network Working Group                                          L. Eggert
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                         A. Cooper
-Expires: 21 December 2024                                          Cisco
+Expires: 21 December 2024                                            KGI
                                                                 J. Arkko
                                                                 Ericsson
                                                               R. Housley
@@ -442,8 +442,8 @@ Authors' Addresses
 
 
    Alissa Cooper
-   Cisco
-   Email: alcoop@cisco.com
+   Knight-Georgetown Institute (KGI)
+   Email: alissa.cooper@georgetown.edu
 
 
    Jari Arkko
