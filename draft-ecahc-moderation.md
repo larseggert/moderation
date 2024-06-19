@@ -200,8 +200,8 @@ The management and moderation of participation channels associated
 with various IETF groups, inculding their mailing lists, chat
 channels and in-person, remote, or interim meetings SHOULD remain a
 task of the relevant group's management, such as WG chairs. However,
-it is expected that moderators are available for consultation and
-assistance should issues arise, and they may confer with the group
+moderators are available for consultation and
+assistance should issues arise, and they MAY proactively confer with the group
 management over potential patterns of behavior. When moderators
 observe or are alerted to problematic behavior on such channels, they
 SHOULD consult with the group's management to jointly determine an
