@@ -219,7 +219,7 @@ their own judgment and community suggestions.
 
 ## Transparency
 
-The moderator team SHALL operate according to a consistent and uniform
+The moderator team SHALL operate according to a consistent
 set of criteria, processes, and actions. The moderator team SHALL
 independently define and execute their role. They SHALL maintain a
 public set of moderation criteria, processes, actions, and other
