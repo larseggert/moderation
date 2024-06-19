@@ -81,11 +81,12 @@ Table of Contents
    3.  Motivation
    4.  IETF Moderator Team
      4.1.  Scope
-     4.2.  Membership
-     4.3.  Training
-     4.4.  Appeals
-     4.5.  Team Diversity
-     4.6.  Relation to Ombudsteam
+     4.2.  Transparency
+     4.3.  Membership
+     4.4.  Training
+     4.5.  Appeals
+     4.6.  Team Diversity
+     4.7.  Relation to Ombudsteam
    5.  Changes to Existing RFCs
    6.  Security Considerations
    7.  IANA Considerations
@@ -223,22 +224,13 @@ Table of Contents
    management should respect the moderation team's task of upholding an
    overall IETF-wide uniformity for moderation.
 
-   The moderator team SHALL operate according to a consistent and
-   uniform set of criteria, processes, and actions.  The moderator team
-   SHALL independently define and execute their role.  They SHALL
-   maintain a public set of moderation criteria, processes, actions, and
-   other material that allows the community to understand and comment on
-   the role of the team.  The moderator team SHOULD consider adopting
-   moderation criteria, processes, and actions that other technical
-   communities have found suitable.  The moderator team's criteria and
-   processes SHALL be developed with community input, but they are not
-   expected to be documented in the RFC series.
-
    The moderator team MAY initiate moderation actions by itself;
    individual participants SHOULD also alert the team to disruptive
    behavior they observe.  Participants should be able to contact the
    moderator team in ways that are, ideally, integrated into the various
-   participation channels the IETF offers.
+   participation channels the IETF offers.  The moderator team SHALL
+   keep the identities of participants requesting moderation
+   confidential.
 
    It is not expected that the moderator team will be monitoring every
    IETF channel, but rather that participants will proactively flag
@@ -255,15 +247,39 @@ Table of Contents
       |  moderator team of potentially disruptive behavior and let them
       |  deal with it.
 
-4.2.  Membership
+4.2.  Transparency
 
-   The IETF Chair appoints members of the moderator team.  Apart from
-   appointing moderators, the IETF Chair SHALL refrain from the day-to-
-   day operation and management of the moderator team.  The moderator
-   team MAY decide to consult with the IETF Chair when needed.
+   The moderator team SHALL operate according to a consistent set of
+   criteria, processes, and actions.  The moderator team SHALL
+   independently define and execute their role.  They SHALL maintain a
+   public set of moderation criteria, processes, actions, and other
+   material that allows the community to understand and comment on the
+   role of the team.  The moderator team SHOULD consider adopting
+   moderation criteria, processes, and actions that other technical
+   communities have found suitable.  The moderator team's criteria and
+   processes SHALL be developed with community input, but they are not
+   expected to be documented in the RFC series.
+
+      |  TODO: This gives the moderator team broad freedom to define
+      |  processes and actions.  Should this document define some
+      |  boundaries for what the moderator team can do?
+
+   The moderator team SHOULD create and maintain a public mailing list
+   for the community to discuss both the general moderation criteria and
+   individual moderation decisions.  To not distract from the topic-
+   oriented discussion on other IETF lists, such meta-discussions SHOULD
+   be actively redirected to the moderation discussion list.
+
+4.3.  Membership
+
+   The IETF Chair appoints and replaces members of the moderator team.
+   Apart from appointing and replacing moderators, the IETF Chair SHALL
+   refrain from the day-to-day operation and management of the moderator
+   team.  The moderator team MAY decide to consult with the IETF Chair
+   when needed.
 
    Because the IESG and IAB are in the appeals chain for moderator team
-   decisions (see Section 4.4), the IETF Chair SHOULD NOT appoint a
+   decisions (see Section 4.5), the IETF Chair MUST NOT appoint a
    moderator who is serving on the IESG or IAB.  Individuals serving on
    other bodies to which the NomCom appoints members, such as the IETF
    Trust or the LLC Board, as well as LLC staff and contractors SHALL
@@ -271,13 +287,13 @@ Table of Contents
    is assuming any such role, they SHALL step down from the moderator
    team soon after.
 
-4.3.  Training
+4.4.  Training
 
    The IETF is committed to providing and/or funding training for
    appointed moderators as necessary.  The IETF Chair will negotiate any
    required funding or resources with IETF Administration LLC [RFC8711].
 
-4.4.  Appeals
+4.5.  Appeals
 
    Because the moderator team serves at the discretion of the IETF
    Chair, any moderation decision can be appealed to the IETF Chair by
@@ -287,16 +303,19 @@ Table of Contents
    as with any other Area Director decision.  In this case, the appeals
    chain starts with an appeal to the entire IESG.
 
-4.5.  Team Diversity
+4.6.  Team Diversity
 
    Due to the global nature of the IETF, the membership of this team
    SHOULD reflect a diversity of time zones and other participant
    characteristics that lets it operate effectively around the clock and
-   throughout the year.  Team diversity is also important to ensure any
-   participant observing problematic behavior can identify a moderator
-   they feel comfortable contacting.
+   throughout the year.  Ideally, the moderator team should be able to
+   respond to issues within a few hours.
 
-4.6.  Relation to Ombudsteam
+   Team diversity is also important to ensure any participant observing
+   problematic behavior can identify a moderator they feel comfortable
+   contacting.
+
+4.7.  Relation to Ombudsteam
 
    The moderator team SHALL complement the efforts of the IETF
    ombudsteam [OT], whose focus on anti-harassment and operation SHALL
@@ -324,7 +343,7 @@ Table of Contents
 
    Potential abuse of the moderation process for the suppression of
    undesired opinions is counteracted by the availability of an appeals
-   process, per Section 4.4.
+   process, per Section 4.5.
 
 7.  IANA Considerations
 
@@ -333,6 +352,8 @@ Table of Contents
 8.  Acknowledgments
 
    These individuals suggested improvements to this document:
+
+   *  Eric Rescorla
 
    *  Jay Daley
 
