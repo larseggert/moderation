@@ -28,7 +28,7 @@ author:
     name: Alissa Cooper
     org: Knight-Georgetown Institute (KGI)
     abbrev: KGI
-    email: alissa@cooperw.in
+    email: alissa.cooper@georgetown.edu
 -
     name: Jari Arkko
     org: Ericsson
