@@ -198,7 +198,7 @@ should be approached.
 
 The management and moderation of participation channels associated
 with various IETF groups, inculding their mailing lists, chat
-channels and in-person, remote, or interim meetings SHOULD remain a
+channels and in-person, remote, or interim meetings remains primarily a
 task of the relevant group's management, such as WG chairs. However,
 moderators are available for consultation and
 assistance should issues arise, and they MAY proactively confer with the group
