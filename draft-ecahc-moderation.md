@@ -111,17 +111,20 @@ Dealing with *disruptive* behavior, however, is not part of the role
 of the ombudsteam. {{?RFC3934}} task the chairs of each IETF working
 group with moderating their group's in-person meetings and mailing
 lists, and an IESG statement {{MODML}} describes additional guidance
-to working group chairs. For IETF mailing lists not associated with a
-working group, another IESG statement clarifies {{DP}} that the list
-administrators are tasked with moderation. And the IETF list for
-general discussions has, mostly for historic reasons, a team of
-moderators that are not list administrators and operate by a
-different set of processes {{?RFC9245}}.
+to working group chairs about how - but not when - to moderate their
+lists.
+
+For IETF mailing lists not associated with a working group, another
+IESG statement clarifies {{DP}} that the list administrators are
+tasked with moderation. And the IETF list for general discussions
+has, mostly for historic reasons, a team of moderators that are not
+list administrators and operate by a different set of processes
+{{?RFC9245}}.
 
 In addition, {{?RFC3683}} defines a process for revoking an
 individual's posting rights to IETF mailing lists following a
-community last-call of a "PR-action" proposed by the IESG, often in
-response to complaints from the community.
+community last-call of a "posting rights" action (PR-action) proposed
+by the IESG, often in response to complaints from the community.
 
 This fractured approach to moderation of disruptive participation
 through chairs, list administrators, and moderator teams, combined
@@ -190,6 +193,21 @@ mailing lists, chat channels, and discussions in other systems that
 the IETF or WGs have chosen to employ, such as GitHub repositories,
 Wikis, or issue trackers.
 
+It is not expected that the moderator team will be monitoring every
+IETF channel, but rather that participants will proactively flag
+concerns about disruptive behavior to the moderator team. However,
+the moderator team SHOULD actively monitor a small set of key
+participation channels, including, for example, the IETF discussion
+and last-call mailing lists or the IETF plenary chat channel. The
+moderator team should decide which channels are in this set based on
+their own judgment and community suggestions.
+
+{:aside}
+> TODO: Decide whether chairs and list admins should retain the
+> ability to moderate their lists in addition to the moderator team,
+> or whether chair and list admins should only inform the moderator
+> team of potentially disruptive behavior and let them deal with it.
+
 It is important to note that the moderation team only
 moderates *public* IETF participation channels. Their mandate does
 not extend to problematic behavior in private channels, such as
@@ -217,21 +235,6 @@ behavior they observe. Participants should be able to contact the
 moderator team in ways that are, ideally, integrated into the various
 participation channels the IETF offers. The moderator team SHALL keep
 the identities of participants requesting moderation confidential.
-
-It is not expected that the moderator team will be monitoring every
-IETF channel, but rather that participants will proactively flag
-concerns about disruptive behavior to the moderator team. However,
-the moderator team SHOULD actively monitor a small set of key
-participation channels, including, for example, the IETF discussion
-and last-call mailing lists or the IETF plenary chat channel. The
-moderator team should decide which channels are in this set based on
-their own judgment and community suggestions.
-
-{:aside}
-> TODO: Decide whether chairs and list admins should retain the
-> ability to moderate their lists in addition to the moderator team,
-> or whether chair and list admins should only inform the moderator
-> team of potentially disruptive behavior and let them deal with it.
 
 ## Transparency
 
@@ -286,10 +289,10 @@ required funding or resources with IETF Administration LLC
 Because the moderator team serves at the discretion of the IETF Chair,
 any moderation decision can be appealed to the IETF Chair by anyone,
 per {{!RFC2026}}. Disagreements with a decision by the IETF Chair can
-be brought to their attention. If this does not lead to a resolution,
-the decision can be appealed as described in {{!RFC2026}}, as with
-any other Area Director decision. In this case, the appeals chain
-starts with an appeal to the entire IESG.
+brought to their attention. If this does not lead to a resolution, a
+decision by the IETF Chair can be appealed as described in
+{{!RFC2026}}, as with any other Area Director decision. In this case,
+the appeals chain starts with an appeal to the entire IESG.
 
 ## Team Diversity
 
@@ -344,5 +347,8 @@ These individuals suggested improvements to this document:
 
 - Eric Rescorla
 - Jay Daley
+- Melinda Shore
+- Michael Richardson
+- Rich Salz
 
 --- back
