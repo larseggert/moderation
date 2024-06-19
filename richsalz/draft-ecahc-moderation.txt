@@ -214,22 +214,11 @@ Table of Contents
    moderator team should decide which channels are in this set based on
    their own judgment and community suggestions.
 
-   The management and moderation of in-person, remote, and interim
-   meetings remains a task of the relevant group's management, such as
-   WG chairs.  However, it is expected that moderators are available for
-   consultation and assistance should issues arise, and they may confer
-   with the group management over potential patterns of behavior.
-
-   The moderator team SHALL operate according to a consistent and
-   uniform set of criteria, processes, and actions.  The moderator team
-   SHALL independently define and execute their role.  They SHALL
-   maintain a public set of moderation criteria, processes, actions, and
-   other material that allows the community to understand and comment on
-   the role of the team.  The moderator team SHOULD consider adopting
-   moderation criteria, processes, and actions that other technical
-   communities have found suitable.  The moderator team's criteria and
-   processes SHALL be developed with community input, but they are not
-   expected to be documented in the RFC series.
+      |  TODO: Decide whether chairs and list admins should retain the
+      |  ability to moderate their lists in addition to the moderator
+      |  team, or whether chair and list admins should only inform the
+      |  moderator team of potentially disruptive behavior and let them
+      |  deal with it.
 
    It is important to note that the moderation team only moderates
    _public_ IETF participation channels.  Their mandate does not extend
@@ -259,12 +248,6 @@ Table of Contents
    participation channels the IETF offers.  The moderator team SHALL
    keep the identities of participants requesting moderation
    confidential.
-
-      |  TODO: Decide whether chairs and list admins should retain the
-      |  ability to moderate their lists in addition to the moderator
-      |  team, or whether chair and list admins should only inform the
-      |  moderator team of potentially disruptive behavior and let them
-      |  deal with it.
 
 4.2.  Transparency
 
@@ -317,7 +300,7 @@ Table of Contents
    Because the moderator team serves at the discretion of the IETF
    Chair, any moderation decision can be appealed to the IETF Chair by
    anyone, per [RFC2026].  Disagreements with a decision by the IETF
-   Chair can be brought to their attention.  If this does not lead to a
+   Chair can brought to their attention.  If this does not lead to a
    resolution, a decision by the IETF Chair can be appealed as described
    in [RFC2026], as with any other Area Director decision.  In this
    case, the appeals chain starts with an appeal to the entire IESG.
@@ -375,6 +358,10 @@ Table of Contents
    *  Eric Rescorla
 
    *  Jay Daley
+
+   *  Melinda Shore
+
+   *  Michael Richardson
 
    *  Rich Salz
 
