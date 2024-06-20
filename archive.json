@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-18T00:18:31.471017+00:00",
+  "timestamp": "2024-06-20T00:17:44.198175+00:00",
   "repo": "larseggert/moderation",
   "labels": [
     {
@@ -537,15 +537,15 @@
       "id": "I_kwDOJrr8CM5vb2p4",
       "title": "Email suggestions from @richsalz",
       "url": "https://github.com/larseggert/moderation/issues/25",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "[Email suggestions](https://mailarchive.ietf.org/arch/msg/gendispatch/3m1ny_Zjhxfy8vTqp14cSgQsO84) from @richsalz:\r\n>I am posting to the gendispatch list because that is where the document says discussion should happen.\r\n> \r\n>In Section 3, Motivation, the MODML reference doesn\u2019t really give guidance to chairs for this general case being discussed by >this document. It describes how WG chairs should act if they make their WG list moderated, which is different.\r\n> \r\n>The term PR-Action should be defined when first used, I think.\r\n> \r\n>In section 4.1, Scope, the sentence \u201cIf is not expected that the moderator team will be monitoring every IETF channel\u2026\u201d should appear much earlier in the document.\r\n> \r\n>In Section 4.3, Appeals, this sentence confuses me: Disagreements with a decision by the IETF Chair can be brought to their attention.  Does \u201ctheir\u201d refer to the IETF Chair? And if so, is it reasonable to expect that the IETF Chair having decided will change their mind? Isn\u2019t disagreements with IETF Chair decisions can be appealed?\r\n> \r\n>Have you considered having some subset of the organizational bodies and ISOC appoint members or liaisons?\r\n ",
       "createdAt": "2023-08-28T11:29:22Z",
-      "updatedAt": "2023-08-28T11:29:22Z",
-      "closedAt": null,
+      "updatedAt": "2024-06-19T14:45:44Z",
+      "closedAt": "2024-06-19T14:45:44Z",
       "comments": []
     },
     {
@@ -553,15 +553,15 @@
       "id": "I_kwDOJrr8CM5vb3PG",
       "title": "Email suggestions from @ekr",
       "url": "https://github.com/larseggert/moderation/issues/26",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "[Email suggestions](https://mailarchive.ietf.org/arch/msg/gendispatch/x1JcEWRYy8_NXE07DqdkCWXr1lQ) from @ekr:\r\n```\r\nI think this is a good idea and this draft is a good start. I have\r\nmade a few comments below, but I want to make one general suggestion\r\nfor enhancement.\r\n\r\nIn my experience one of the things that makes moderation difficult\r\nis when each moderation decision is itself subject to extensive\r\ndebate in the same venue as it is happening. This constitutes a\r\nDoS on the venue as well as discouraging strong moderation. I\r\nthink it would be good to establish a separate venue for debating\r\nmoderation discussions (e.g., an issue tracker or something)\r\nthat is distinct from the lists being moderated. This will allow\r\nfor public debate where necessary but not subject everyone else to it.\r\n\r\n\r\nS 4.1.\r\n   The moderator team SHALL operate according to a consistent and\r\n   uniform set of criteria, processes, and actions.  The moderator team\r\n   SHALL independently define and execute their role.  They SHALL\r\n   maintain a public set of moderation criteria, processes, actions, and\r\n   other material that allows the community to understand and comment on\r\n   the role of the team.  The moderator team SHOULD consider adopting\r\n   moderation criteria, processes, and actions that other technical\r\n   communities have found suitable.  The moderator team's criteria and\r\n   processes SHALL be developed with community input, but they are not\r\n   expected to be documented in the RFC series.\r\n\r\nSo these do not require approval of IAB or IESG?\r\n\r\n   The moderator team MAY initiate moderation actions by itself;\r\n   individual participants SHOULD also alert the team to disruptive\r\n   behavior they observe.  Participants should be able to contact the\r\n   moderator team in ways that are, ideally, integrated into the various\r\n   participation channels the IETF offers.\r\n\r\nI think you should clarify that this is confidential.\r\n\r\n\r\nMaybe I'm missing it, but it's not clear to me what the *powers*\r\nof moderators are. For instance, can they ban someoen entirely\r\nfrom a list? From an IETF list? It just seems to say \"moderation\r\nactions\". FWIW my view is they should have quite broad powers.\r\n\r\n\r\n\r\nS 4.2.\r\n\r\n   Because the IESG and IAB are in the appeals chain for moderator team\r\n   decisions (see Section 4.3), the IETF Chair SHOULD NOT appoint a\r\n   moderator who is serving on the IESG or IAB.\r\n\r\nI think this should probably be a MUST and I would change it to\r\nforbid someone becoming a moderator and then joining the I*.\r\n\r\n   Because the IESG and IAB are in the appeals chain for moderator team\r\n   decisions (see Section 4.3), serving members of the IESG and IAB\r\n   MUST NOT serve as moderators.\r\n\r\nI don't see a clause that allows replacing moderators. That seems\r\nlike it needs to exist.\r\n\r\nS 4.4.\r\n   Due to the global nature of the IETF, the membership of this team\r\n   SHOULD reflect a diversity of time zones and other participant\r\n   characteristics that lets it operate effectively around the clock and\r\n   throughout the year.  Team diversity is also important to ensure any\r\n   participant observing problematic behavior can identify a moderator\r\n   they feel comfortable contacting.\r\n\r\nThis seems to implicitly assume a very high level of responsiveness\r\n(24x7). I'm not sure that's necessary but if you think it is, then\r\nyou should say so.\r\n```",
       "createdAt": "2023-08-28T11:30:55Z",
-      "updatedAt": "2023-08-28T11:34:57Z",
-      "closedAt": null,
+      "updatedAt": "2024-06-19T07:53:55Z",
+      "closedAt": "2024-06-19T07:53:55Z",
       "comments": [
         {
           "author": "larseggert",
@@ -584,7 +584,7 @@
       "labels": [],
       "body": "[Email suggestions](https://mailarchive.ietf.org/arch/msg/gendispatch/2H9subWDn6IRvkXAPhCT54PF6d8) from John Levine:\r\n```\r\nWhile I think the idea of this draft is fine, I do not understand the 2119 language.\r\n\r\nIn other RFCs, 2119 language tells you how to interoperate.  You MUST do this or\r\nyour system won't interoperate with others.  But here, for example:\r\n\r\n This IETF moderator team ... SHALL moderate all the IETF's various\r\n current and future participation channels. \r\n\r\nI hope they do, but if they don't, what happens? It starts an appeal?\r\nThe moderators are fired? The IETF sinks further into chaos? \r\n\r\nI'd replace the 2119 stuff with normal English or else replace the\r\nboilerplate paragraph 2 with an explanation of what SHALL, MUST NOT,\r\netc. mean in this context.\r\n```",
       "createdAt": "2023-08-28T11:32:26Z",
-      "updatedAt": "2023-10-11T19:42:58Z",
+      "updatedAt": "2024-06-18T20:53:31Z",
       "closedAt": null,
       "comments": [
         {
@@ -600,6 +600,20 @@
           "body": "It's a general problem with process documents, because 2119 was really aimed at technical specs. Maybe this document can set a precedent - define its own terminology text instead of citing RFC2119/8174:\r\n\r\nThe key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\",\r\n\"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this\r\ndocument are to be interpreted  in their normal English sense; they are shown\r\nin uppercase for emphasis and clarity.",
           "createdAt": "2023-10-11T19:42:58Z",
           "updatedAt": "2023-10-11T19:42:58Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@becarpenter would you prepare a PR so we can see how that would look like?",
+          "createdAt": "2024-06-18T10:46:53Z",
+          "updatedAt": "2024-06-18T10:46:53Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "PR just sent",
+          "createdAt": "2024-06-18T20:53:30Z",
+          "updatedAt": "2024-06-18T20:53:30Z"
         }
       ]
     },
@@ -608,15 +622,15 @@
       "id": "I_kwDOJrr8CM5vb4UT",
       "title": "Email suggestions from @MelindaShore",
       "url": "https://github.com/larseggert/moderation/issues/28",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Email suggestions from @MelindaShore (sent privately, so not included here)",
       "createdAt": "2023-08-28T11:33:51Z",
-      "updatedAt": "2023-08-28T11:33:51Z",
-      "closedAt": null,
+      "updatedAt": "2024-06-19T05:44:06Z",
+      "closedAt": "2024-06-19T05:44:06Z",
       "comments": []
     },
     {
@@ -624,15 +638,15 @@
       "id": "I_kwDOJrr8CM5vb5YF",
       "title": "Email suggestions from @mcr",
       "url": "https://github.com/larseggert/moderation/issues/29",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "[Email suggestions](https://mailarchive.ietf.org/arch/msg/wgchairs/p_7CWfwJuyXMhnkQYFxnuNmYrRc) from @mcr:\r\n```\r\nLars Eggert <lars@eggert.org> wrote:\r\n    > One open question is if WG chairs should retain the task (or at least\r\n    > ability) to moderator their WG lists. We'd be interested in your\r\n    > thoughts here, and of course on anything else related to the document.\r\n\r\nThey SHOULD retain the ability to moderate their WG lists.\r\nBut, hidden in there seems to be the question about whether they ought to\r\nretain the responsibility to do so?\r\n\r\n/me goes to read the document.\r\n\r\n3-person moderation team... wow. Sounds like a full-time position!\r\n\r\nIt also seems to require skills and training uncommon to IETF participants.\r\nDoes it include reporting of unicast harrassement that may result from publ=\r\nic\r\nthreads?\r\n\r\nI think that the moderators should be appointed for three year terms,\r\n(staggered), and that there should probably be a term limit of one term.\r\n[for sanity]\r\n\r\nThe moderators will need a travel and training budget: the travel budget\r\nspecifically to allow for (in-person, intensive, group) training.  Maybe\r\nco-located with I* spring retreat.  Training maybe also to be given to I*.\r\nI don't know what the criteria for the trainers, but I'm sure someone with a\r\nclueful HR friend can find that out.\r\n\r\nThere is probably need for a (private) case tracking system.\r\n```",
       "createdAt": "2023-08-28T11:36:37Z",
-      "updatedAt": "2023-08-28T11:36:37Z",
-      "closedAt": null,
+      "updatedAt": "2024-06-18T10:43:08Z",
+      "closedAt": "2024-06-18T10:43:08Z",
       "comments": []
     },
     {
@@ -688,6 +702,38 @@
           "updatedAt": "2023-09-11T14:35:14Z"
         }
       ]
+    },
+    {
+      "number": 45,
+      "id": "I_kwDOJrr8CM6M2yKu",
+      "title": "Scaling (1)",
+      "url": "https://github.com/larseggert/moderation/issues/45",
+      "state": "OPEN",
+      "author": "becarpenter",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The draft has two TODOs that amount to the same thing: \"Decide whether moderation rights remain also with WG chairs, list admins,...\"\r\n\r\nThis is a scaling issue: there is no way that a small team can pro-actively moderate hundreds of lists. So it seems evident to me that existing list admins must be the first line (whether for WG or non-WG lists). The only exceptions might be a handful of IETF-wide lists, notably ietf@ and last-call@ (as the draft already says).\r\n\r\nOf course that interacts with the BCP83 discussion.",
+      "createdAt": "2024-06-19T21:48:39Z",
+      "updatedAt": "2024-06-19T21:54:59Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 46,
+      "id": "I_kwDOJrr8CM6M2yzc",
+      "title": "Scaling (2)",
+      "url": "https://github.com/larseggert/moderation/issues/46",
+      "state": "OPEN",
+      "author": "becarpenter",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "> This IETF moderator team consists of a small number of individuals (no less than three)\r\n\r\nThree is certainly too small. Perhaps change it to \"(no less than five)\", or omit the parenthesis completely to avoid micromanagement.",
+      "createdAt": "2024-06-19T21:51:41Z",
+      "updatedAt": "2024-06-19T21:51:41Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -1373,24 +1419,26 @@
       "id": "PR_kwDOJrr8CM5Z3odb",
       "title": "Try and address comments from @richsalz",
       "url": "https://github.com/larseggert/moderation/pull/32",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Fixes #25",
       "createdAt": "2023-09-08T11:47:13Z",
-      "updatedAt": "2024-06-17T06:35:29Z",
+      "updatedAt": "2024-06-19T14:45:44Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
-      "baseRefOid": "64d6e28657d9bc3cd898af6805abde4f7243e364",
+      "baseRefOid": "35ecb9fef71a7bc056af206349296b1aa5a557ad",
       "headRepository": "larseggert/moderation",
       "headRefName": "richsalz",
-      "headRefOid": "0c8689271b64949b768f2804d36d4a7db153a1c2",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "b2722c54f5c1d6fa9f35bc4fe503788a32ffc4ce",
+      "closedAt": "2024-06-19T14:45:43Z",
+      "mergedAt": "2024-06-19T14:45:43Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "e9f2fe056b6b84466ebfb05848124a2b7437ce1d"
+      },
       "comments": [
         {
           "author": "russhousley",
@@ -1419,20 +1467,34 @@
           "body": "I do not think there will be \"uniform\" attention paid to the various channels, and I see this as one way to interpret this sentence.",
           "createdAt": "2023-10-12T20:35:52Z",
           "updatedAt": "2023-10-12T20:35:52Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@russhousley my proposal for #33 is to remove `and uniform`. With that change, is there anything that needs to change wrt this PR?",
+          "createdAt": "2024-06-18T10:46:06Z",
+          "updatedAt": "2024-06-18T10:46:06Z"
+        },
+        {
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Works for me.",
+          "createdAt": "2024-06-18T14:42:40Z",
+          "updatedAt": "2024-06-18T14:42:40Z"
         }
       ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM5jr5ih",
           "commit": {
-            "abbreviatedOid": "0c86892"
+            "abbreviatedOid": "2a2c760"
           },
           "author": "becarpenter",
           "authorAssociation": "COLLABORATOR",
-          "state": "APPROVED",
+          "state": "DISMISSED",
           "body": "I respectfully disagree with Russ. I don't think the policy of actively monitoring some lists and not others violates the uniformity of the criteria etc.  It simply recognizes that some lists are more general than others and therefore deserve more attention.",
           "createdAt": "2023-10-11T20:00:22Z",
-          "updatedAt": "2024-06-17T06:35:28Z",
+          "updatedAt": "2024-06-19T08:00:45Z",
           "comments": []
         }
       ]
@@ -1442,24 +1504,26 @@
       "id": "PR_kwDOJrr8CM5Z3tcY",
       "title": "Suggestions from @ekr",
       "url": "https://github.com/larseggert/moderation/pull/33",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Fixes #26",
       "createdAt": "2023-09-08T12:03:40Z",
-      "updatedAt": "2024-06-17T06:35:45Z",
+      "updatedAt": "2024-06-19T07:53:55Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
-      "baseRefOid": "64d6e28657d9bc3cd898af6805abde4f7243e364",
+      "baseRefOid": "cdbee9bea9e284cce14b8f2e8efd118481a6a28c",
       "headRepository": "larseggert/moderation",
       "headRefName": "ekr",
-      "headRefOid": "114f7292f7177aebc8c3b48767c2db2259b605c4",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "aab19293f1a62b4647dd48b08f281a9c77c6bc42",
+      "closedAt": "2024-06-19T07:53:54Z",
+      "mergedAt": "2024-06-19T07:53:54Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "35ecb9fef71a7bc056af206349296b1aa5a557ad"
+      },
       "comments": [
         {
           "author": "russhousley",
@@ -1487,15 +1551,55 @@
         {
           "id": "PRR_kwDOJrr8CM5jr3Pm",
           "commit": {
+            "abbreviatedOid": "4228051"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "state": "DISMISSED",
+          "body": "wfm",
+          "createdAt": "2023-10-11T19:55:18Z",
+          "updatedAt": "2024-06-19T07:18:36Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM5-q2BO",
+          "commit": {
+            "abbreviatedOid": "114f729"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-06-18T10:44:07Z",
+          "updatedAt": "2024-06-18T10:44:07Z",
+          "comments": [
+            {
+              "originalPosition": 31,
+              "body": "Can we sidestep the issue in this way?\r\n```suggestion\r\nThe moderator team SHALL operate according to a consistent\r\n```",
+              "createdAt": "2024-06-18T10:44:07Z",
+              "updatedAt": "2024-06-18T10:44:07Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM5-vti1",
+          "commit": {
             "abbreviatedOid": "114f729"
           },
           "author": "becarpenter",
           "authorAssociation": "COLLABORATOR",
-          "state": "APPROVED",
-          "body": "wfm",
-          "createdAt": "2023-10-11T19:55:18Z",
-          "updatedAt": "2024-06-17T06:35:45Z",
-          "comments": []
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-06-18T20:30:26Z",
+          "updatedAt": "2024-06-18T20:30:26Z",
+          "comments": [
+            {
+              "originalPosition": 31,
+              "body": "wfm",
+              "createdAt": "2024-06-18T20:30:26Z",
+              "updatedAt": "2024-06-18T20:30:26Z"
+            }
+          ]
         }
       ]
     },
@@ -1504,25 +1608,35 @@
       "id": "PR_kwDOJrr8CM5Z34QE",
       "title": "Address comments from @MelindaShore",
       "url": "https://github.com/larseggert/moderation/pull/34",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Fixes #28",
       "createdAt": "2023-09-08T12:31:57Z",
-      "updatedAt": "2024-06-17T06:36:06Z",
+      "updatedAt": "2024-06-19T05:44:05Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
-      "baseRefOid": "64d6e28657d9bc3cd898af6805abde4f7243e364",
+      "baseRefOid": "6592c36c11cf87dc96cc927f63aa8bd440bf4809",
       "headRepository": "larseggert/moderation",
       "headRefName": "melinda",
-      "headRefOid": "8fb3a97712980f2b7e0755dfb78f8b126d7c4713",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
+      "headRefOid": "28e09595160cd41214efe4c73e24fe0dbe724bda",
+      "closedAt": "2024-06-19T05:44:05Z",
+      "mergedAt": "2024-06-19T05:44:05Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "cdbee9bea9e284cce14b8f2e8efd118481a6a28c"
+      },
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "All looks OK to me",
+          "createdAt": "2024-06-18T20:29:14Z",
+          "updatedAt": "2024-06-18T20:29:14Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDOJrr8CM5gcSat",
@@ -1563,6 +1677,72 @@
               "updatedAt": "2023-09-08T18:25:46Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM5-qyFB",
+          "commit": {
+            "abbreviatedOid": "8fb3a97"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-06-18T10:35:44Z",
+          "updatedAt": "2024-06-18T10:37:48Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "WDYT?\r\n```suggestion\r\nThe management and moderation of participation channels associated\r\nwith various IETF groups, inculding their mailing lists, chat\r\nchannels and in-person, remote, or interim meetings remains primarily a\r\ntask of the relevant group's management, such as WG chairs. However,\r\n```",
+              "createdAt": "2024-06-18T10:35:44Z",
+              "updatedAt": "2024-06-18T10:37:48Z"
+            },
+            {
+              "originalPosition": 22,
+              "body": "WDYT?\r\n```suggestion\r\nmoderators are available for consultation and\r\nassistance should issues arise, and they MAY proactively confer with the group\r\nmanagement over potential patterns of behavior. When moderators\r\n```",
+              "createdAt": "2024-06-18T10:37:36Z",
+              "updatedAt": "2024-06-18T10:37:48Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM5-vsx5",
+          "commit": {
+            "abbreviatedOid": "22371e7"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-06-18T20:28:28Z",
+          "updatedAt": "2024-06-18T20:28:28Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "wfm",
+              "createdAt": "2024-06-18T20:28:28Z",
+              "updatedAt": "2024-06-18T20:28:28Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM5-vs27",
+          "commit": {
+            "abbreviatedOid": "22371e7"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-06-18T20:28:38Z",
+          "updatedAt": "2024-06-18T20:28:39Z",
+          "comments": [
+            {
+              "originalPosition": 22,
+              "body": "wfm",
+              "createdAt": "2024-06-18T20:28:39Z",
+              "updatedAt": "2024-06-18T20:28:39Z"
+            }
+          ]
         }
       ]
     },
@@ -1571,24 +1751,26 @@
       "id": "PR_kwDOJrr8CM5Z38mO",
       "title": "Suggestions from @mcr",
       "url": "https://github.com/larseggert/moderation/pull/35",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Fixes #29",
       "createdAt": "2023-09-08T12:44:22Z",
-      "updatedAt": "2024-06-17T06:35:54Z",
+      "updatedAt": "2024-06-18T10:43:08Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
-      "baseRefOid": "64d6e28657d9bc3cd898af6805abde4f7243e364",
+      "baseRefOid": "e9591b7e576fbf004d8b5050876ea993f2075e71",
       "headRepository": "larseggert/moderation",
       "headRefName": "mcr",
-      "headRefOid": "af4fcb85589049957c01c02ab7c5edb2d3cffeb6",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "003fd03d6bb106bb465fc6aa2f029c535b822aef",
+      "closedAt": "2024-06-18T10:43:07Z",
+      "mergedAt": "2024-06-18T10:43:07Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "6592c36c11cf87dc96cc927f63aa8bd440bf4809"
+      },
       "comments": [
         {
           "author": "russhousley",
@@ -1602,14 +1784,14 @@
         {
           "id": "PRR_kwDOJrr8CM5jrwZ0",
           "commit": {
-            "abbreviatedOid": "af4fcb8"
+            "abbreviatedOid": "003fd03"
           },
           "author": "becarpenter",
           "authorAssociation": "COLLABORATOR",
           "state": "APPROVED",
           "body": "wfm",
           "createdAt": "2023-10-11T19:46:01Z",
-          "updatedAt": "2024-06-17T06:35:54Z",
+          "updatedAt": "2024-06-18T10:39:25Z",
           "comments": []
         }
       ]
@@ -1688,19 +1870,160 @@
       ],
       "body": "Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 3 to 4.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/upload-artifact/releases\">actions/upload-artifact's releases</a>.</em></p>\n<blockquote>\n<h2>v4.0.0</h2>\n<h2>What's Changed</h2>\n<p>The release of upload-artifact@v4 and download-artifact@v4 are major changes to the backend architecture of Artifacts. They have numerous performance and behavioral improvements.</p>\n<p>\u2139\ufe0f However, this is a major update that includes breaking changes. Artifacts created with versions v3 and below are not compatible with the v4 actions. Uploads and downloads <em>must</em> use the same major actions versions. There are also key differences from previous versions that may require updates to your workflows.</p>\n<p>For more information, please see:</p>\n<ol>\n<li>The <a href=\"https://github.blog/changelog/2023-12-14-github-actions-artifacts-v4-is-now-generally-available/\">changelog</a> post.</li>\n<li>The <a href=\"https://github.com/actions/upload-artifact/blob/main/README.md\">README</a>.</li>\n<li>The <a href=\"https://github.com/actions/upload-artifact/blob/main/docs/MIGRATION.md\">migration documentation</a>.</li>\n<li>As well as the underlying npm package, <a href=\"https://github.com/actions/toolkit/tree/main/packages/artifact\"><code>@\u200bactions/artifact</code></a> documentation.</li>\n</ol>\n<h2>New Contributors</h2>\n<ul>\n<li><a href=\"https://github.com/vmjoseph\"><code>@\u200bvmjoseph</code></a> made their first contribution in <a href=\"https://redirect.github.com/actions/upload-artifact/pull/464\">actions/upload-artifact#464</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/actions/upload-artifact/compare/v3...v4.0.0\">https://github.com/actions/upload-artifact/compare/v3...v4.0.0</a></p>\n<h2>v3.1.3</h2>\n<h2>What's Changed</h2>\n<ul>\n<li>chore(github): remove trailing whitespaces by <a href=\"https://github.com/ljmf00\"><code>@\u200bljmf00</code></a> in <a href=\"https://redirect.github.com/actions/upload-artifact/pull/313\">actions/upload-artifact#313</a></li>\n<li>Bump <code>@\u200bactions/artifact</code> version to v1.1.2 by <a href=\"https://github.com/bethanyj28\"><code>@\u200bbethanyj28</code></a> in <a href=\"https://redirect.github.com/actions/upload-artifact/pull/436\">actions/upload-artifact#436</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/actions/upload-artifact/compare/v3...v3.1.3\">https://github.com/actions/upload-artifact/compare/v3...v3.1.3</a></p>\n<h2>v3.1.2</h2>\n<ul>\n<li>Update all <code>@actions/*</code> NPM packages to their latest versions- <a href=\"https://redirect.github.com/actions/upload-artifact/issues/374\">#374</a></li>\n<li>Update all dev dependencies to their most recent versions - <a href=\"https://redirect.github.com/actions/upload-artifact/issues/375\">#375</a></li>\n</ul>\n<h2>v3.1.1</h2>\n<ul>\n<li>Update actions/core package to latest version to remove <code>set-output</code> deprecation warning <a href=\"https://redirect.github.com/actions/upload-artifact/issues/351\">#351</a></li>\n</ul>\n<h2>v3.1.0</h2>\n<h2>What's Changed</h2>\n<ul>\n<li>Bump <code>@\u200bactions/artifact</code> to v1.1.0 (<a href=\"https://redirect.github.com/actions/upload-artifact/pull/327\">actions/upload-artifact#327</a>)\n<ul>\n<li>Adds checksum headers on artifact upload (<a href=\"https://redirect.github.com/actions/toolkit/pull/1095\">actions/toolkit#1095</a>) (<a href=\"https://redirect.github.com/actions/toolkit/pull/1063\">actions/toolkit#1063</a>)</li>\n</ul>\n</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/65462800fd760344b1a7b4382951275a0abb4808\"><code>6546280</code></a> updating package version</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/c004fb4bf6b1e87680ce1b219a3ad0b8e5dfb7ec\"><code>c004fb4</code></a> Merge branch 'main' into eggyhead/use-artifact-v2.1.6</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/90aba496fcaa311fd7e784d55e568deabe0fa288\"><code>90aba49</code></a> updating toolkit artifact dependency to 2.1.6</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/b06cde36fc32a3ee94080e87258567f73f921537\"><code>b06cde3</code></a> Merge pull request <a href=\"https://redirect.github.com/actions/upload-artifact/issues/563\">#563</a> from actions/eggyhead/release-4.3.2</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/1746f4ab65b179e0ea60a494b83293b640dd5bba\"><code>1746f4a</code></a> Revert &quot;updating to release 4.3.2&quot;</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/31685d04a0d6557fe2be4174c3ea69ee4cbfa6bb\"><code>31685d0</code></a> updating to release 4.3.2</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/18bf333cd2249fbbbdb605fd9d9ed57efd7adf34\"><code>18bf333</code></a> Merge pull request <a href=\"https://redirect.github.com/actions/upload-artifact/issues/562\">#562</a> from actions/eggyhead/update-artifact-v215</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/dac413befa086181ab17cf3db942667aede55e0d\"><code>dac413b</code></a> update package lock version</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/bb3b4a3cdbef901e2e185ca492d513e798fd1b9f\"><code>bb3b4a3</code></a> updating package version</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/3e3da837d2a1e030e44fe2bb5c4b9f63c25f33e3\"><code>3e3da83</code></a> updating artifact and core dependencies</li>\n<li>Additional commits viewable in <a href=\"https://github.com/actions/upload-artifact/compare/v3...v4\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/upload-artifact&package-manager=github_actions&previous-version=3&new-version=4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>",
       "createdAt": "2024-06-17T21:16:37Z",
-      "updatedAt": "2024-06-17T21:16:38Z",
+      "updatedAt": "2024-06-19T14:46:54Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
-      "baseRefOid": "cef229891f15271e4212c19acaf77b5fdfd6d595",
+      "baseRefOid": "e9f2fe056b6b84466ebfb05848124a2b7437ce1d",
       "headRepository": "larseggert/moderation",
       "headRefName": "dependabot/github_actions/actions/upload-artifact-4",
-      "headRefOid": "728b65c46918b51f5fba735b34f72900950ebd90",
+      "headRefOid": "7b52025974c8b0a7f61cda2329c642cdff5f3d8f",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@dependabot rebase\r\n",
+          "createdAt": "2024-06-18T07:16:10Z",
+          "updatedAt": "2024-06-18T07:16:10Z"
+        },
+        {
+          "author": "dependabot",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Looks like this PR is already up-to-date with main! If you'd still like to recreate it from scratch, overwriting any edits, you can request `@dependabot recreate`.",
+          "createdAt": "2024-06-18T07:16:13Z",
+          "updatedAt": "2024-06-18T07:16:13Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 42,
+      "id": "PR_kwDOJrr8CM5yx4yp",
+      "title": "NetApp -> Mozilla",
+      "url": "https://github.com/larseggert/moderation/pull/42",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-06-18T05:28:46Z",
+      "updatedAt": "2024-06-18T10:34:31Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "cef229891f15271e4212c19acaf77b5fdfd6d595",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "larseggert-patch-1",
+      "headRefOid": "8eb88ccfbbaf2bb6e098c093f4da21c7e93b4953",
+      "closedAt": "2024-06-18T10:34:31Z",
+      "mergedAt": "2024-06-18T10:34:31Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "e9591b7e576fbf004d8b5050876ea993f2075e71"
+      },
       "comments": [],
       "reviews": []
+    },
+    {
+      "number": 43,
+      "id": "PR_kwDOJrr8CM5y327-",
+      "title": "Replace BCP14 boilerplate",
+      "url": "https://github.com/larseggert/moderation/pull/43",
+      "state": "OPEN",
+      "author": "becarpenter",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Just interpret the magic words as plain English, because this is not an interoperability spec. Did not apply bold face.",
+      "createdAt": "2024-06-18T20:52:28Z",
+      "updatedAt": "2024-06-19T21:42:33Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "6592c36c11cf87dc96cc927f63aa8bd440bf4809",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "becarpenter",
+      "headRefOid": "43ed2f69e215891e9a4e454caa08c677ba08f276",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Thanks for the PR. Do others think we should do this? (I'm on the fence.)",
+          "createdAt": "2024-06-19T14:46:17Z",
+          "updatedAt": "2024-06-19T14:46:17Z"
+        },
+        {
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I guess there is no harm.",
+          "createdAt": "2024-06-19T15:12:18Z",
+          "updatedAt": "2024-06-19T15:12:18Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "The reason I'm advocating this change is that in the end we need wiggle room in IETF processes, and we can't accept wiggle room in protocol specs - so BCP14 is really the wrong instrument in process documents. (_All_ process documents, not just this one.)",
+          "createdAt": "2024-06-19T21:42:32Z",
+          "updatedAt": "2024-06-19T21:42:32Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 44,
+      "id": "PR_kwDOJrr8CM5y7OSs",
+      "title": "fix: Update Alissa's affiliation",
+      "url": "https://github.com/larseggert/moderation/pull/44",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-06-19T08:08:57Z",
+      "updatedAt": "2024-06-19T14:56:52Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "e9f2fe056b6b84466ebfb05848124a2b7437ce1d",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "fix-affiliation-acooper",
+      "headRefOid": "cd3ec443d7947cee419b886c5953eb873ab59298",
+      "closedAt": "2024-06-19T14:56:51Z",
+      "mergedAt": "2024-06-19T14:56:51Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "d1aeaa13aeda2021aedc467baa09cee3502bcf35"
+      },
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@coopdanger please double-check?",
+          "createdAt": "2024-06-19T14:46:39Z",
+          "updatedAt": "2024-06-19T14:46:39Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM5-3oqx",
+          "commit": {
+            "abbreviatedOid": "99fd3fb"
+          },
+          "author": "coopdanger",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "Please use alissa.cooper@georgetown.edu, otherwise this looks good.",
+          "createdAt": "2024-06-19T14:55:17Z",
+          "updatedAt": "2024-06-19T14:55:17Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
