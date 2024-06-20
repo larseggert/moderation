@@ -5,14 +5,14 @@
 Network Working Group                                          L. Eggert
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                         A. Cooper
-Expires: 21 December 2024                                            KGI
+Expires: 22 December 2024                                            KGI
                                                                 J. Arkko
                                                                 Ericsson
                                                               R. Housley
                                                           Vigil Security
                                                             B. Carpenter
                                                        Univ. of Auckland
-                                                            19 June 2024
+                                                            20 June 2024
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 December 2024.
+   This Internet-Draft will expire on 22 December 2024.
 
 Copyright Notice
 
