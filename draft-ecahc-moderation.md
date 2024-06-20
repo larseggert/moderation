@@ -212,7 +212,7 @@ It is important to note that the moderation team only
 moderates *public* IETF participation channels. Their mandate does
 not extend to problematic behavior in private channels, such as
 private chat channels, direct messages, or conversations or other
-interactions outside of meetings. In any such cases, the Ombudsteam
+interactions outside of meetings. In such cases, the Ombudsteam
 should be approached.
 
 The management and moderation of participation channels associated
