@@ -249,6 +249,11 @@ communities have found suitable. The moderator team's criteria and
 processes SHALL be developed with community input, but they are not
 expected to be documented in the RFC series.
 
+Some of these processes may rely on automated mechanisms, such as
+rate-limiting emails to lists or messages to chat channels.
+(The IETF's deliberately low bar to participation makes it easy to
+create throw-away personas for such denial-of-service behavior.)
+
 {:aside}
 > TODO: This gives the moderator team broad freedom to define
   processes and actions. Should this document define some boundaries
