@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-20T00:17:44.198175+00:00",
+  "timestamp": "2024-06-23T00:19:40.837835+00:00",
   "repo": "larseggert/moderation",
   "labels": [
     {
@@ -715,9 +715,24 @@
       "labels": [],
       "body": "The draft has two TODOs that amount to the same thing: \"Decide whether moderation rights remain also with WG chairs, list admins,...\"\r\n\r\nThis is a scaling issue: there is no way that a small team can pro-actively moderate hundreds of lists. So it seems evident to me that existing list admins must be the first line (whether for WG or non-WG lists). The only exceptions might be a handful of IETF-wide lists, notably ietf@ and last-call@ (as the draft already says).\r\n\r\nOf course that interacts with the BCP83 discussion.",
       "createdAt": "2024-06-19T21:48:39Z",
-      "updatedAt": "2024-06-19T21:54:59Z",
+      "updatedAt": "2024-06-20T20:38:09Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "That WFM, but then we should make it clear(er) that chairs (and community members?) MAY/SHOULD inform the moderators about potentially problematic behavior.",
+          "createdAt": "2024-06-20T06:14:26Z",
+          "updatedAt": "2024-06-20T06:14:26Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Yes, indeed, I guess it's SHOULD for chairs and non-WG list admins, and MAY for the community.",
+          "createdAt": "2024-06-20T20:38:07Z",
+          "updatedAt": "2024-06-20T20:38:07Z"
+        }
+      ]
     },
     {
       "number": 46,
@@ -731,9 +746,76 @@
       "labels": [],
       "body": "> This IETF moderator team consists of a small number of individuals (no less than three)\r\n\r\nThree is certainly too small. Perhaps change it to \"(no less than five)\", or omit the parenthesis completely to avoid micromanagement.",
       "createdAt": "2024-06-19T21:51:41Z",
-      "updatedAt": "2024-06-19T21:51:41Z",
+      "updatedAt": "2024-06-20T20:40:44Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Yes, that trips people up constantly. Maybe\r\n```\r\nThis IETF moderator team consists of no less than three individuals,\r\nto establish some minimum basis for consensus-based team decisions\r\nand geographic spread, but realistically needs to have several times that\r\nnumber of members to spread the moderation load and provide redundancy\r\nin the cases of absences, etc.\r\n```",
+          "createdAt": "2024-06-20T06:16:37Z",
+          "updatedAt": "2024-06-20T06:16:37Z"
+        },
+        {
+          "author": "JayDaley",
+          "authorAssociation": "COLLABORATOR",
+          "body": "If you have several time 3, i.e. 21, then do they all need to reach consensus on any decision?  ",
+          "createdAt": "2024-06-20T10:22:41Z",
+          "updatedAt": "2024-06-20T10:22:41Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I didn't mean we need always a multiple of three, just maybe a bunch more than just three. Point about consensus remains.",
+          "createdAt": "2024-06-20T13:27:03Z",
+          "updatedAt": "2024-06-20T13:27:03Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I don't we should set a hard minimum or a hard maximum. Common sense should apply.",
+          "createdAt": "2024-06-20T20:40:42Z",
+          "updatedAt": "2024-06-20T20:40:42Z"
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "id": "I_kwDOJrr8CM6M3wmx",
+      "title": "Define \"moderate\"",
+      "url": "https://github.com/larseggert/moderation/issues/47",
+      "state": "OPEN",
+      "author": "becarpenter",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "We need to precisely define what we mean by \"moderate\" and \"moderation\".\r\n\r\nSee this message for context:\r\nhttps://mailarchive.ietf.org/arch/msg/gendispatch/i74Ey8_aFRqekH4n2d6Ha412hSk/",
+      "createdAt": "2024-06-20T03:30:36Z",
+      "updatedAt": "2024-06-21T06:23:52Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Yes, we should be explicit about this being a spectrum all the way from gentle reminders on- and off-list, all the way to suspension of posting rights and other ways of participating/communicating.\r\n\r\nWe need to make sure the I-D doesn't go to far into policy-setting territory though; that IMO the team needs to do for itself.",
+          "createdAt": "2024-06-20T06:18:46Z",
+          "updatedAt": "2024-06-20T06:18:46Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Maybe state something like: The term \"moderation\" can refer both to _preemptive_ moderation, where a moderator reviews messages before release to the mailing list, and _reactive_ moderation, where the moderator intervenes after a message has been sent. The IETF mainly practices reactive moderation, with a spectrum all the way from gentle reminders on- and off-list, all the way to suspension of posting rights and other ways of participating/communicating.\r\n\r\nPR?",
+          "createdAt": "2024-06-20T20:49:32Z",
+          "updatedAt": "2024-06-20T20:49:32Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "WFM. Yes, PR please?",
+          "createdAt": "2024-06-21T06:23:51Z",
+          "updatedAt": "2024-06-21T06:23:51Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -1861,7 +1943,7 @@
       "id": "PR_kwDOJrr8CM5yvmNJ",
       "title": "Bump actions/upload-artifact from 3 to 4",
       "url": "https://github.com/larseggert/moderation/pull/41",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "dependabot",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
@@ -1870,17 +1952,19 @@
       ],
       "body": "Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 3 to 4.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/actions/upload-artifact/releases\">actions/upload-artifact's releases</a>.</em></p>\n<blockquote>\n<h2>v4.0.0</h2>\n<h2>What's Changed</h2>\n<p>The release of upload-artifact@v4 and download-artifact@v4 are major changes to the backend architecture of Artifacts. They have numerous performance and behavioral improvements.</p>\n<p>\u2139\ufe0f However, this is a major update that includes breaking changes. Artifacts created with versions v3 and below are not compatible with the v4 actions. Uploads and downloads <em>must</em> use the same major actions versions. There are also key differences from previous versions that may require updates to your workflows.</p>\n<p>For more information, please see:</p>\n<ol>\n<li>The <a href=\"https://github.blog/changelog/2023-12-14-github-actions-artifacts-v4-is-now-generally-available/\">changelog</a> post.</li>\n<li>The <a href=\"https://github.com/actions/upload-artifact/blob/main/README.md\">README</a>.</li>\n<li>The <a href=\"https://github.com/actions/upload-artifact/blob/main/docs/MIGRATION.md\">migration documentation</a>.</li>\n<li>As well as the underlying npm package, <a href=\"https://github.com/actions/toolkit/tree/main/packages/artifact\"><code>@\u200bactions/artifact</code></a> documentation.</li>\n</ol>\n<h2>New Contributors</h2>\n<ul>\n<li><a href=\"https://github.com/vmjoseph\"><code>@\u200bvmjoseph</code></a> made their first contribution in <a href=\"https://redirect.github.com/actions/upload-artifact/pull/464\">actions/upload-artifact#464</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/actions/upload-artifact/compare/v3...v4.0.0\">https://github.com/actions/upload-artifact/compare/v3...v4.0.0</a></p>\n<h2>v3.1.3</h2>\n<h2>What's Changed</h2>\n<ul>\n<li>chore(github): remove trailing whitespaces by <a href=\"https://github.com/ljmf00\"><code>@\u200bljmf00</code></a> in <a href=\"https://redirect.github.com/actions/upload-artifact/pull/313\">actions/upload-artifact#313</a></li>\n<li>Bump <code>@\u200bactions/artifact</code> version to v1.1.2 by <a href=\"https://github.com/bethanyj28\"><code>@\u200bbethanyj28</code></a> in <a href=\"https://redirect.github.com/actions/upload-artifact/pull/436\">actions/upload-artifact#436</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/actions/upload-artifact/compare/v3...v3.1.3\">https://github.com/actions/upload-artifact/compare/v3...v3.1.3</a></p>\n<h2>v3.1.2</h2>\n<ul>\n<li>Update all <code>@actions/*</code> NPM packages to their latest versions- <a href=\"https://redirect.github.com/actions/upload-artifact/issues/374\">#374</a></li>\n<li>Update all dev dependencies to their most recent versions - <a href=\"https://redirect.github.com/actions/upload-artifact/issues/375\">#375</a></li>\n</ul>\n<h2>v3.1.1</h2>\n<ul>\n<li>Update actions/core package to latest version to remove <code>set-output</code> deprecation warning <a href=\"https://redirect.github.com/actions/upload-artifact/issues/351\">#351</a></li>\n</ul>\n<h2>v3.1.0</h2>\n<h2>What's Changed</h2>\n<ul>\n<li>Bump <code>@\u200bactions/artifact</code> to v1.1.0 (<a href=\"https://redirect.github.com/actions/upload-artifact/pull/327\">actions/upload-artifact#327</a>)\n<ul>\n<li>Adds checksum headers on artifact upload (<a href=\"https://redirect.github.com/actions/toolkit/pull/1095\">actions/toolkit#1095</a>) (<a href=\"https://redirect.github.com/actions/toolkit/pull/1063\">actions/toolkit#1063</a>)</li>\n</ul>\n</li>\n</ul>\n</blockquote>\n</details>\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/65462800fd760344b1a7b4382951275a0abb4808\"><code>6546280</code></a> updating package version</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/c004fb4bf6b1e87680ce1b219a3ad0b8e5dfb7ec\"><code>c004fb4</code></a> Merge branch 'main' into eggyhead/use-artifact-v2.1.6</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/90aba496fcaa311fd7e784d55e568deabe0fa288\"><code>90aba49</code></a> updating toolkit artifact dependency to 2.1.6</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/b06cde36fc32a3ee94080e87258567f73f921537\"><code>b06cde3</code></a> Merge pull request <a href=\"https://redirect.github.com/actions/upload-artifact/issues/563\">#563</a> from actions/eggyhead/release-4.3.2</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/1746f4ab65b179e0ea60a494b83293b640dd5bba\"><code>1746f4a</code></a> Revert &quot;updating to release 4.3.2&quot;</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/31685d04a0d6557fe2be4174c3ea69ee4cbfa6bb\"><code>31685d0</code></a> updating to release 4.3.2</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/18bf333cd2249fbbbdb605fd9d9ed57efd7adf34\"><code>18bf333</code></a> Merge pull request <a href=\"https://redirect.github.com/actions/upload-artifact/issues/562\">#562</a> from actions/eggyhead/update-artifact-v215</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/dac413befa086181ab17cf3db942667aede55e0d\"><code>dac413b</code></a> update package lock version</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/bb3b4a3cdbef901e2e185ca492d513e798fd1b9f\"><code>bb3b4a3</code></a> updating package version</li>\n<li><a href=\"https://github.com/actions/upload-artifact/commit/3e3da837d2a1e030e44fe2bb5c4b9f63c25f33e3\"><code>3e3da83</code></a> updating artifact and core dependencies</li>\n<li>Additional commits viewable in <a href=\"https://github.com/actions/upload-artifact/compare/v3...v4\">compare view</a></li>\n</ul>\n</details>\n<br />\n\n\n[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=actions/upload-artifact&package-manager=github_actions&previous-version=3&new-version=4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)\n\nDependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.\n\n[//]: # (dependabot-automerge-start)\n[//]: # (dependabot-automerge-end)\n\n---\n\n<details>\n<summary>Dependabot commands and options</summary>\n<br />\n\nYou can trigger Dependabot actions by commenting on this PR:\n- `@dependabot rebase` will rebase this PR\n- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it\n- `@dependabot merge` will merge this PR after your CI passes on it\n- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it\n- `@dependabot cancel merge` will cancel a previously requested merge and block automerging\n- `@dependabot reopen` will reopen this PR if it is closed\n- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually\n- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency\n- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)\n- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)\n\n\n</details>",
       "createdAt": "2024-06-17T21:16:37Z",
-      "updatedAt": "2024-06-19T14:46:54Z",
+      "updatedAt": "2024-06-20T06:22:57Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
-      "baseRefOid": "e9f2fe056b6b84466ebfb05848124a2b7437ce1d",
+      "baseRefOid": "d1aeaa13aeda2021aedc467baa09cee3502bcf35",
       "headRepository": "larseggert/moderation",
       "headRefName": "dependabot/github_actions/actions/upload-artifact-4",
-      "headRefOid": "7b52025974c8b0a7f61cda2329c642cdff5f3d8f",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "175ca7a9a43d109991f220fd6693061e4fa49919",
+      "closedAt": "2024-06-20T06:22:56Z",
+      "mergedAt": "2024-06-20T06:22:56Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "cebacfceffd239789f5bce28fee187c416bbbdb3"
+      },
       "comments": [
         {
           "author": "larseggert",
@@ -1939,13 +2023,13 @@
       "labels": [],
       "body": "Just interpret the magic words as plain English, because this is not an interoperability spec. Did not apply bold face.",
       "createdAt": "2024-06-18T20:52:28Z",
-      "updatedAt": "2024-06-19T21:42:33Z",
+      "updatedAt": "2024-06-22T21:00:29Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
-      "baseRefOid": "6592c36c11cf87dc96cc927f63aa8bd440bf4809",
+      "baseRefOid": "cbb4fbcd28a4bfe4d507e204a99deaaf90b27a08",
       "headRepository": "larseggert/moderation",
       "headRefName": "becarpenter",
-      "headRefOid": "43ed2f69e215891e9a4e454caa08c677ba08f276",
+      "headRefOid": "0c79624a7931c677a478b365618a82b90765159d",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -1971,9 +2055,57 @@
           "body": "The reason I'm advocating this change is that in the end we need wiggle room in IETF processes, and we can't accept wiggle room in protocol specs - so BCP14 is really the wrong instrument in process documents. (_All_ process documents, not just this one.)",
           "createdAt": "2024-06-19T21:42:32Z",
           "updatedAt": "2024-06-19T21:42:32Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "PR now also includes note on preemptive vs reactive moderation in response to Joel's comment.",
+          "createdAt": "2024-06-22T21:00:28Z",
+          "updatedAt": "2024-06-22T21:00:28Z"
         }
       ],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM5-7avB",
+          "commit": {
+            "abbreviatedOid": "43ed2f6"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-06-20T06:13:06Z",
+          "updatedAt": "2024-06-20T06:13:07Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "```suggestion\r\nThe key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\",\r\n\"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this\r\ndocument are to be interpreted in their normal English sense; they are shown\r\nin uppercase for emphasis and clarity.\r\n\r\n{:aside}\r\n> TODO: Get feedback from the community whether this redefinition of BCP14\r\n> terms in process documents is something they support.\r\n```\r\n\r\nWDYT? Makes it more explicit that we are aware this is unusual at this time.",
+              "createdAt": "2024-06-20T06:13:06Z",
+              "updatedAt": "2024-06-20T06:13:07Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM5_CSnU",
+          "commit": {
+            "abbreviatedOid": "43ed2f6"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-06-20T20:36:32Z",
+          "updatedAt": "2024-06-20T20:36:33Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "Yes, good idea. (However, let's avoid bikeshedding this in case it becomes a distraction.)",
+              "createdAt": "2024-06-20T20:36:32Z",
+              "updatedAt": "2024-06-20T20:36:33Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 44,
@@ -2021,6 +2153,76 @@
           "body": "Please use alissa.cooper@georgetown.edu, otherwise this looks good.",
           "createdAt": "2024-06-19T14:55:17Z",
           "updatedAt": "2024-06-19T14:55:17Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "id": "PR_kwDOJrr8CM5zB4_8",
+      "title": "Suggestion from @russhousley",
+      "url": "https://github.com/larseggert/moderation/pull/48",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-06-20T06:22:25Z",
+      "updatedAt": "2024-06-20T08:55:45Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "d1aeaa13aeda2021aedc467baa09cee3502bcf35",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "russhousley-nit",
+      "headRefOid": "fd60ada7db457a6379614fa500640ca7d1e73a2a",
+      "closedAt": "2024-06-20T08:55:44Z",
+      "mergedAt": "2024-06-20T08:55:44Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "323997fff7bc86da541d26975f1976f28108e887"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 49,
+      "id": "PR_kwDOJrr8CM5zC8HM",
+      "title": "Suggestion received in private",
+      "url": "https://github.com/larseggert/moderation/pull/49",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-06-20T09:04:56Z",
+      "updatedAt": "2024-06-21T06:22:29Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "323997fff7bc86da541d26975f1976f28108e887",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "larseggert-patch-1",
+      "headRefOid": "8bc2c8774bf8bcc6e8da062e06c4a1daeb21571e",
+      "closedAt": "2024-06-21T06:22:28Z",
+      "mergedAt": "2024-06-21T06:22:28Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "cbb4fbcd28a4bfe4d507e204a99deaaf90b27a08"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM5_CapO",
+          "commit": {
+            "abbreviatedOid": "8bc2c87"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "wfm",
+          "createdAt": "2024-06-20T20:53:52Z",
+          "updatedAt": "2024-06-20T20:53:52Z",
           "comments": []
         }
       ]
