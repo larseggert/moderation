@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-23T00:19:40.837835+00:00",
+  "timestamp": "2024-06-25T00:17:48.199059+00:00",
   "repo": "larseggert/moderation",
   "labels": [
     {
@@ -2023,7 +2023,7 @@
       "labels": [],
       "body": "Just interpret the magic words as plain English, because this is not an interoperability spec. Did not apply bold face.",
       "createdAt": "2024-06-18T20:52:28Z",
-      "updatedAt": "2024-06-22T21:00:29Z",
+      "updatedAt": "2024-06-23T19:55:56Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
       "baseRefOid": "cbb4fbcd28a4bfe4d507e204a99deaaf90b27a08",
@@ -2062,6 +2062,27 @@
           "body": "PR now also includes note on preemptive vs reactive moderation in response to Joel's comment.",
           "createdAt": "2024-06-22T21:00:28Z",
           "updatedAt": "2024-06-22T21:00:28Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "One issue: if we leave these terms capitalized in the text, idnits will throw a hissy-fit. It might be better to lowercase and bold them?",
+          "createdAt": "2024-06-23T06:28:57Z",
+          "updatedAt": "2024-06-23T06:29:10Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "> PR now also includes note on preemptive vs reactive moderation in response to Joel's comment.\n\nCould we do this in a separate PR, so we don't blur which PRs fix which issues?",
+          "createdAt": "2024-06-23T06:30:06Z",
+          "updatedAt": "2024-06-23T06:30:06Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "1. re lowercase/bold. Good catch... I have no objection to that change.\r\n2. Hmm. GitHub didn't seem to give me a way to make a separate PR. (I use GitHub Desktop on Windows.) So I agree, but I don't know how to do it.",
+          "createdAt": "2024-06-23T19:55:56Z",
+          "updatedAt": "2024-06-23T19:55:56Z"
         }
       ],
       "reviews": [
