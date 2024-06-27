@@ -124,14 +124,6 @@ has, mostly for historic reasons, a team of moderators that are not
 list administrators and operate by a different set of processes
 {{?RFC9245}}.
 
-Note that the term "moderation" can refer both to *preemptive*
-moderation, where a moderator reviews messages before release
-to the mailing list, and *reactive* moderation, where the moderator
-intervenes after a message has been sent. The IETF mainly practices
-reactive moderation, with a spectrum from gentle reminders on- and
-off-list, all the way to suspension of posting rights and other ways
-of participating or communicating.
-
 In addition, {{?RFC3683}} defines a process for revoking an
 individual's posting rights to IETF mailing lists following a
 community last-call of a "posting rights" action (PR-action) proposed
@@ -366,6 +358,5 @@ These individuals suggested improvements to this document:
 - Melinda Shore
 - Michael Richardson
 - Rich Salz
-- Joel Halpern
 
 --- back
