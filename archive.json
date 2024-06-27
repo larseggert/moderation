@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-25T00:17:48.199059+00:00",
+  "timestamp": "2024-06-27T00:17:59.756898+00:00",
   "repo": "larseggert/moderation",
   "labels": [
     {
@@ -814,6 +814,96 @@
           "body": "WFM. Yes, PR please?",
           "createdAt": "2024-06-21T06:23:51Z",
           "updatedAt": "2024-06-21T06:23:51Z"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "id": "I_kwDOJrr8CM6NfEyA",
+      "title": "Who chooses the moderators?",
+      "url": "https://github.com/larseggert/moderation/issues/50",
+      "state": "OPEN",
+      "author": "becarpenter",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "There have been several email comments objecting to \"The IETF Chair appoints members of the moderator team.\" The concern is that this might end up with the Chair being conflicted when a moderation \"case\" involves the Chair (or maybe the IESG).\r\nShould the moderator team be appointed by a community process? If so, how, since NomCom is already overloaded?",
+      "createdAt": "2024-06-25T21:56:42Z",
+      "updatedAt": "2024-06-26T21:10:34Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "coopdanger",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think this is a red herring and the people who hold this objection do so because they want to be able to claim that the IETF Chair is censoring them and the moderator team is compromised when the IETF Chair disagrees with things they say and do.",
+          "createdAt": "2024-06-25T22:15:35Z",
+          "updatedAt": "2024-06-25T22:15:35Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "That's exactly what they claim. I'm not supporting them necessarily, but should we note this in the draft as an open issue?",
+          "createdAt": "2024-06-25T22:32:50Z",
+          "updatedAt": "2024-06-25T22:32:50Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "I see no good solution here. And the chair already appoints the current moderator team and the ombudsteam. \n\nAny machinery we invent (multiple appointment roles/bodies, NomCom, etc.) feels like overkill.",
+          "createdAt": "2024-06-26T06:07:37Z",
+          "updatedAt": "2024-06-26T06:08:32Z"
+        },
+        {
+          "author": "coopdanger",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Agree with @larseggert. ",
+          "createdAt": "2024-06-26T08:14:42Z",
+          "updatedAt": "2024-06-26T08:14:42Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "We could go to a model that I had been using for those two teams, I.e., have them search and nominate new candidates for the team with the chair merely approving.",
+          "createdAt": "2024-06-26T10:56:32Z",
+          "updatedAt": "2024-06-26T10:56:32Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "That's good, and should probably be documented for the Ombudsteam too.\r\nDo we also need to discuss how a moderator is removed?\r\nAlso we need a conflict of interests section, like section 7 of RFC 7776. What happens if the Chair is involved directly in a moderation \"incident\"?",
+          "createdAt": "2024-06-26T21:10:33Z",
+          "updatedAt": "2024-06-26T21:10:33Z"
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "id": "I_kwDOJrr8CM6NfOuU",
+      "title": "Emergency actions for egregious postings",
+      "url": "https://github.com/larseggert/moderation/issues/51",
+      "state": "OPEN",
+      "author": "becarpenter",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I think we should explicitly authorise a few people to take emergency action when a completely unacceptable posting is made (illegal, vulgar, or manifestly harassing). For example, the IETF Chair, the Exec Dir, and maybe a couple of backups, could instruct staff to delete a given message and/or block a given poster, subject to follow-up within 48 hours by the moderation team or to referral to the Ombudsteam.\r\n\r\n(I think the staff already have discretion to delete manifest spam, but I'm not sure where that is written down.)",
+      "createdAt": "2024-06-25T22:25:54Z",
+      "updatedAt": "2024-06-26T21:00:18Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Agree. But we also need to handle the case where a participation channel gets DoS'ed.",
+          "createdAt": "2024-06-26T06:06:19Z",
+          "updatedAt": "2024-06-26T06:06:19Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Yes, staff must be able to respond immediately to DoS without any delay.",
+          "createdAt": "2024-06-26T21:00:16Z",
+          "updatedAt": "2024-06-26T21:00:16Z"
         }
       ]
     }
@@ -2023,13 +2113,13 @@
       "labels": [],
       "body": "Just interpret the magic words as plain English, because this is not an interoperability spec. Did not apply bold face.",
       "createdAt": "2024-06-18T20:52:28Z",
-      "updatedAt": "2024-06-23T19:55:56Z",
+      "updatedAt": "2024-06-27T00:04:26Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
       "baseRefOid": "cbb4fbcd28a4bfe4d507e204a99deaaf90b27a08",
       "headRepository": "larseggert/moderation",
       "headRefName": "becarpenter",
-      "headRefOid": "0c79624a7931c677a478b365618a82b90765159d",
+      "headRefOid": "9a254339d3eaba273989b4a2d484ead0254fe013",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -2083,6 +2173,13 @@
           "body": "1. re lowercase/bold. Good catch... I have no objection to that change.\r\n2. Hmm. GitHub didn't seem to give me a way to make a separate PR. (I use GitHub Desktop on Windows.) So I agree, but I don't know how to do it.",
           "createdAt": "2024-06-23T19:55:56Z",
           "updatedAt": "2024-06-23T19:55:56Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I've taken the second item out of the PR, to avoid the confusion.",
+          "createdAt": "2024-06-27T00:04:25Z",
+          "updatedAt": "2024-06-27T00:04:25Z"
         }
       ],
       "reviews": [
