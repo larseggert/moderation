@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-27T00:17:59.756898+00:00",
+  "timestamp": "2024-06-30T00:20:15.933276+00:00",
   "repo": "larseggert/moderation",
   "labels": [
     {
@@ -829,7 +829,7 @@
       "labels": [],
       "body": "There have been several email comments objecting to \"The IETF Chair appoints members of the moderator team.\" The concern is that this might end up with the Chair being conflicted when a moderation \"case\" involves the Chair (or maybe the IESG).\r\nShould the moderator team be appointed by a community process? If so, how, since NomCom is already overloaded?",
       "createdAt": "2024-06-25T21:56:42Z",
-      "updatedAt": "2024-06-26T21:10:34Z",
+      "updatedAt": "2024-06-27T20:22:08Z",
       "closedAt": null,
       "comments": [
         {
@@ -873,6 +873,20 @@
           "body": "That's good, and should probably be documented for the Ombudsteam too.\r\nDo we also need to discuss how a moderator is removed?\r\nAlso we need a conflict of interests section, like section 7 of RFC 7776. What happens if the Chair is involved directly in a moderation \"incident\"?",
           "createdAt": "2024-06-26T21:10:33Z",
           "updatedAt": "2024-06-26T21:10:33Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": ">  Do we also need to discuss how a moderator is removed? \r\n\r\nEither they step down, or the others ask the chair to remove them for <reason>.\r\n\r\n>Also we need a conflict of interests section, like section 7 of RFC 7776. What happens if the Chair is involved directly in a moderation \"incident\"?\r\n\r\nThe chair should not.",
+          "createdAt": "2024-06-27T08:44:17Z",
+          "updatedAt": "2024-06-27T08:44:17Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "It shouldn't ever happen. But sometimes bad things do happen...",
+          "createdAt": "2024-06-27T20:22:07Z",
+          "updatedAt": "2024-06-27T20:22:07Z"
         }
       ]
     },
@@ -888,7 +902,7 @@
       "labels": [],
       "body": "I think we should explicitly authorise a few people to take emergency action when a completely unacceptable posting is made (illegal, vulgar, or manifestly harassing). For example, the IETF Chair, the Exec Dir, and maybe a couple of backups, could instruct staff to delete a given message and/or block a given poster, subject to follow-up within 48 hours by the moderation team or to referral to the Ombudsteam.\r\n\r\n(I think the staff already have discretion to delete manifest spam, but I'm not sure where that is written down.)",
       "createdAt": "2024-06-25T22:25:54Z",
-      "updatedAt": "2024-06-26T21:00:18Z",
+      "updatedAt": "2024-06-27T20:20:59Z",
       "closedAt": null,
       "comments": [
         {
@@ -904,6 +918,20 @@
           "body": "Yes, staff must be able to respond immediately to DoS without any delay.",
           "createdAt": "2024-06-26T21:00:16Z",
           "updatedAt": "2024-06-26T21:00:16Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "Based on experience, staff will very often want sign-off from leadership or the community.",
+          "createdAt": "2024-06-27T08:42:53Z",
+          "updatedAt": "2024-06-27T08:42:53Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Yes, that makes sense, but we need language that allows for true emergencies,",
+          "createdAt": "2024-06-27T20:20:58Z",
+          "updatedAt": "2024-06-27T20:20:58Z"
         }
       ]
     }
@@ -2344,6 +2372,32 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 52,
+      "id": "PR_kwDOJrr8CM5ztDlb",
+      "title": "Define moderation types",
+      "url": "https://github.com/larseggert/moderation/pull/52",
+      "state": "OPEN",
+      "author": "becarpenter",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Addresses https://github.com/larseggert/moderation/issues/47",
+      "createdAt": "2024-06-27T02:50:53Z",
+      "updatedAt": "2024-06-27T02:50:54Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "cbb4fbcd28a4bfe4d507e204a99deaaf90b27a08",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "bc-define-mod",
+      "headRefOid": "8cc22299ee70b6b4704f1f3630bb8a8f7beb47f0",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
