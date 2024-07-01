@@ -123,12 +123,13 @@ list administrators and operate by a different set of processes
 
 Note that the term "moderation" can refer both to *preemptive*
 moderation, where moderators review attempted participation before it occurs
-(such as reviewing messages to a mailing list), and *reactive* moderation, where moderators
-intervene after problematic participation has occurred. The IETF historically mainly practiced
-reactive moderation, with a spectrum from gentle reminders on- and
-off-list, all the way to suspension of posting rights and other ways
-of participating or communicating. It is up to the moderator team to decide which mix
-of preemptive and reactive moderation to employ as part of their processes.
+(such as reviewing messages to a mailing list), and *reactive* moderation,
+where moderators intervene after problematic participation has occurred. The
+IETF historically mainly practiced reactive moderation, with a spectrum from
+gentle reminders on- and off-list, all the way to suspension of posting rights
+and other ways of participating or communicating. It is up to the moderator
+eam to decide which mix of preemptive and reactive moderation to employ as
+part of their processes.
 
 In addition, {{?RFC3683}} defines a process for revoking an
 individual's posting rights to IETF mailing lists following a
