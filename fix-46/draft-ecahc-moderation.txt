@@ -369,6 +369,8 @@ Table of Contents
 
    These individuals suggested improvements to this document:
 
+   *  Chris Box
+
    *  Eric Rescorla
 
    *  Jay Daley
