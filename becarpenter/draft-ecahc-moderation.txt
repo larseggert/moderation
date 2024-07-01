@@ -5,14 +5,14 @@
 Network Working Group                                          L. Eggert
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                         A. Cooper
-Expires: 29 December 2024                                            KGI
+Expires: 2 January 2025                                              KGI
                                                                 J. Arkko
                                                                 Ericsson
                                                               R. Housley
                                                           Vigil Security
                                                             B. Carpenter
                                                        Univ. of Auckland
-                                                            27 June 2024
+                                                             1 July 2024
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 29 December 2024.
+   This Internet-Draft will expire on 2 January 2025.
 
 Copyright Notice
 
@@ -109,6 +109,9 @@ Table of Contents
    "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
    document are to be interpreted in their normal English sense; they
    are shown in uppercase for emphasis and clarity.
+
+      |  TODO: Get feedback from the community whether this redefinition
+      |  of BCP14 terms in process documents is something they support.
 
 3.  Motivation
 
