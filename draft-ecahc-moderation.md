@@ -350,7 +350,7 @@ undesired opinions is counteracted by the availability of an appeals
 process, per {{appeals}}.
 
 The actions of the moderation team are intended to limit the likelihood
-of disruptive behavior by one IETF participant from discouraging
+of disruptive behavior by a few IETF participants from discouraging
 participation by other IETF participants.
 
 # IANA Considerations
