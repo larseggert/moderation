@@ -364,6 +364,7 @@ This document has no IANA actions.
 
 These individuals suggested improvements to this document:
 
+- Chris Box
 - Eric Rescorla
 - Jay Daley
 - Melinda Shore
