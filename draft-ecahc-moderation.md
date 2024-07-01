@@ -97,7 +97,14 @@ after, and subsumes, the moderator team for the IETF discussion list
 
 # Conventions and Definitions
 
-{::boilerplate bcp14-tagged}
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+document are to be interpreted in their normal English sense; they are shown
+in uppercase for emphasis and clarity.
+
+{:aside}
+> TODO: Get feedback from the community whether this redefinition of BCP14
+> terms in process documents is something they support.
 
 # Motivation {#motiv}
 
