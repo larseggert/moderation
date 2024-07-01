@@ -5,14 +5,14 @@
 Network Working Group                                          L. Eggert
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                         A. Cooper
-Expires: 29 December 2024                                            KGI
+Expires: 2 January 2025                                              KGI
                                                                 J. Arkko
                                                                 Ericsson
                                                               R. Housley
                                                           Vigil Security
                                                             B. Carpenter
                                                        Univ. of Auckland
-                                                            27 June 2024
+                                                             1 July 2024
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 29 December 2024.
+   This Internet-Draft will expire on 2 January 2025.
 
 Copyright Notice
 
@@ -133,12 +133,15 @@ Table of Contents
    administrators and operate by a different set of processes [RFC9245].
 
    Note that the term "moderation" can refer both to _preemptive_
-   moderation, where a moderator reviews messages before release to the
-   mailing list, and _reactive_ moderation, where the moderator
-   intervenes after a message has been sent.  The IETF mainly practices
+   moderation, where moderators review attempted participation before it
+   occurs (such as reviewing messages to a mailing list), and _reactive_
+   moderation, where moderators intervene after problematic
+   participation has occurred.  The IETF historically mainly practiced
    reactive moderation, with a spectrum from gentle reminders on- and
    off-list, all the way to suspension of posting rights and other ways
-   of participating or communicating.
+   of participating or communicating.  It is up to the moderator team to
+   decide which mix of preemptive and reactive moderation to employ as
+   part of their processes.
 
    In addition, [RFC3683] defines a process for revoking an individual's
    posting rights to IETF mailing lists following a community last-call
