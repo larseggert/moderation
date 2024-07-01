@@ -335,7 +335,7 @@ NOT be shared between the teams.
 
 The Board of Directors of the IETF Administration LLC (IETF LLC) has
 fiduciary duty for the overall organization, which includes the duty
-to protect the organization from legal risk that may arise from 
+to protect the organization from legal risk that may arise from
 illegal, vulgar, or manifestly harassing behavior of IETF participants.
 
 This protection MAY include the need to take emergency moderation actions.
