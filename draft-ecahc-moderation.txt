@@ -5,14 +5,14 @@
 Network Working Group                                          L. Eggert
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                         A. Cooper
-Expires: 23 December 2024                                            KGI
+Expires: 2 January 2025                                              KGI
                                                                 J. Arkko
                                                                 Ericsson
                                                               R. Housley
                                                           Vigil Security
                                                             B. Carpenter
                                                        Univ. of Auckland
-                                                            21 June 2024
+                                                             1 July 2024
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 December 2024.
+   This Internet-Draft will expire on 2 January 2025.
 
 Copyright Notice
 
@@ -106,10 +106,12 @@ Table of Contents
 2.  Conventions and Definitions
 
    The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
-   "OPTIONAL" in this document are to be interpreted as described in
-   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
-   capitals, as shown here.
+   "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+   document are to be interpreted in their normal English sense; they
+   are shown in uppercase for emphasis and clarity.
+
+      |  TODO: Get feedback from the community whether this redefinition
+      |  of BCP14 terms in process documents is something they support.
 
 3.  Motivation
 
@@ -378,18 +380,9 @@ Table of Contents
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
               <https://www.rfc-editor.org/rfc/rfc2026>.
 
-   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
-              Requirement Levels", BCP 14, RFC 2119,
-              DOI 10.17487/RFC2119, March 1997,
-              <https://www.rfc-editor.org/rfc/rfc2119>.
-
    [RFC7776]  Resnick, P. and A. Farrel, "IETF Anti-Harassment
               Procedures", BCP 25, RFC 7776, DOI 10.17487/RFC7776, March
               2016, <https://www.rfc-editor.org/rfc/rfc7776>.
-
-   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
-              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
-              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
 9.2.  Informative References
 
