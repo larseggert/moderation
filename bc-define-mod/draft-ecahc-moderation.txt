@@ -106,10 +106,12 @@ Table of Contents
 2.  Conventions and Definitions
 
    The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-   "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and
-   "OPTIONAL" in this document are to be interpreted as described in
-   BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
-   capitals, as shown here.
+   "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+   document are to be interpreted in their normal English sense; they
+   are shown in uppercase for emphasis and clarity.
+
+      |  TODO: Get feedback from the community whether this redefinition
+      |  of BCP14 terms in process documents is something they support.
 
 3.  Motivation
 
@@ -120,14 +122,14 @@ Table of Contents
    empowering an ombudsteam [OT] to take necessary action.
 
    Dealing with _disruptive_ behavior, however, is not part of the role
-   of the ombudsteam.  [RFC3934] task the chairs of each IETF working
+   of the ombudsteam.  [RFC3934] tasks the chairs of each IETF working
    group with moderating their group's in-person meetings and mailing
    lists, and an IESG statement [MODML] describes additional guidance to
    working group chairs about how - but not when - to moderate their
    lists.
 
    For IETF mailing lists not associated with a working group, another
-   IESG statement clarifies [DP] that the list administrators are tasked
+   IESG statement [DP] clarifies that the list administrators are tasked
    with moderation.  And the IETF list for general discussions has,
    mostly for historic reasons, a team of moderators that are not list
    administrators and operate by a different set of processes [RFC9245].
@@ -391,18 +393,9 @@ Table of Contents
               3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
               <https://www.rfc-editor.org/rfc/rfc2026>.
 
-   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
-              Requirement Levels", BCP 14, RFC 2119,
-              DOI 10.17487/RFC2119, March 1997,
-              <https://www.rfc-editor.org/rfc/rfc2119>.
-
    [RFC7776]  Resnick, P. and A. Farrel, "IETF Anti-Harassment
               Procedures", BCP 25, RFC 7776, DOI 10.17487/RFC7776, March
               2016, <https://www.rfc-editor.org/rfc/rfc7776>.
-
-   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
-              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
-              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
 9.2.  Informative References
 
