@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-06-30T00:20:15.933276+00:00",
+  "timestamp": "2024-07-02T00:18:12.587278+00:00",
   "repo": "larseggert/moderation",
   "labels": [
     {
@@ -577,15 +577,15 @@
       "id": "I_kwDOJrr8CM5vb3zH",
       "title": "Email suggestions from John Levine",
       "url": "https://github.com/larseggert/moderation/issues/27",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "[Email suggestions](https://mailarchive.ietf.org/arch/msg/gendispatch/2H9subWDn6IRvkXAPhCT54PF6d8) from John Levine:\r\n```\r\nWhile I think the idea of this draft is fine, I do not understand the 2119 language.\r\n\r\nIn other RFCs, 2119 language tells you how to interoperate.  You MUST do this or\r\nyour system won't interoperate with others.  But here, for example:\r\n\r\n This IETF moderator team ... SHALL moderate all the IETF's various\r\n current and future participation channels. \r\n\r\nI hope they do, but if they don't, what happens? It starts an appeal?\r\nThe moderators are fired? The IETF sinks further into chaos? \r\n\r\nI'd replace the 2119 stuff with normal English or else replace the\r\nboilerplate paragraph 2 with an explanation of what SHALL, MUST NOT,\r\netc. mean in this context.\r\n```",
       "createdAt": "2023-08-28T11:32:26Z",
-      "updatedAt": "2024-06-18T20:53:31Z",
-      "closedAt": null,
+      "updatedAt": "2024-07-01T06:51:51Z",
+      "closedAt": "2024-07-01T06:51:51Z",
       "comments": [
         {
           "author": "larseggert",
@@ -654,15 +654,15 @@
       "id": "I_kwDOJrr8CM5vb5x4",
       "title": "Email suggestions from @chris-box",
       "url": "https://github.com/larseggert/moderation/issues/30",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "larseggert",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Email suggestions from @chris-box (sent privately, so not included here)",
       "createdAt": "2023-08-28T11:37:42Z",
-      "updatedAt": "2023-08-28T11:37:42Z",
-      "closedAt": null,
+      "updatedAt": "2024-07-01T07:03:43Z",
+      "closedAt": "2024-07-01T07:03:43Z",
       "comments": []
     },
     {
@@ -2134,24 +2134,26 @@
       "id": "PR_kwDOJrr8CM5y327-",
       "title": "Replace BCP14 boilerplate",
       "url": "https://github.com/larseggert/moderation/pull/43",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "becarpenter",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Just interpret the magic words as plain English, because this is not an interoperability spec. Did not apply bold face.",
       "createdAt": "2024-06-18T20:52:28Z",
-      "updatedAt": "2024-06-27T00:04:26Z",
+      "updatedAt": "2024-07-01T06:51:52Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
       "baseRefOid": "cbb4fbcd28a4bfe4d507e204a99deaaf90b27a08",
       "headRepository": "larseggert/moderation",
       "headRefName": "becarpenter",
-      "headRefOid": "9a254339d3eaba273989b4a2d484ead0254fe013",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "4e19da81092163df45e0a570871398c436581c4b",
+      "closedAt": "2024-07-01T06:51:50Z",
+      "mergedAt": "2024-07-01T06:51:50Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "92631b1dbfb2afdb0c917e172ab7bad60411a413"
+      },
       "comments": [
         {
           "author": "larseggert",
@@ -2250,6 +2252,32 @@
               "updatedAt": "2024-06-20T20:36:33Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6ALtmt",
+          "commit": {
+            "abbreviatedOid": "4e19da8"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-07-01T06:47:51Z",
+          "updatedAt": "2024-07-01T06:47:51Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6ALvNZ",
+          "commit": {
+            "abbreviatedOid": "4e19da8"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-07-01T06:51:40Z",
+          "updatedAt": "2024-07-01T06:51:40Z",
+          "comments": []
         }
       ]
     },
@@ -2385,19 +2413,400 @@
       "labels": [],
       "body": "Addresses https://github.com/larseggert/moderation/issues/47",
       "createdAt": "2024-06-27T02:50:53Z",
-      "updatedAt": "2024-06-27T02:50:54Z",
+      "updatedAt": "2024-07-01T20:29:12Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
       "baseRefOid": "cbb4fbcd28a4bfe4d507e204a99deaaf90b27a08",
       "headRepository": "larseggert/moderation",
       "headRefName": "bc-define-mod",
-      "headRefOid": "8cc22299ee70b6b4704f1f3630bb8a8f7beb47f0",
+      "headRefOid": "5706004c2bd46f144ffdecd575f3e7127ca9b3d7",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Yes, update my text as you wish (can't use git from this device)\r\n(via tiny screen & keyboard)\r\nRegards,\r\n        Brian Carpenter\r\n\r\nOn Mon, 1 Jul 2024, 18:51 Lars Eggert, ***@***.***> wrote:\r\n\r\n> ***@***.**** requested changes on this pull request.\r\n> ------------------------------\r\n>\r\n> In draft-ecahc-moderation.md\r\n> <https://github.com/larseggert/moderation/pull/52#discussion_r1660552943>:\r\n>\r\n> > +Note that the term \"moderation\" can refer both to *preemptive*\r\n> +moderation, where a moderator reviews messages before release\r\n> +to the mailing list, and *reactive* moderation, where the moderator\r\n> +intervenes after a message has been sent. The IETF mainly practices\r\n>\r\n> This is written for mailing lists, but the new moderation approach is\r\n> supposed to cover all types of participation channels.\r\n> ------------------------------\r\n>\r\n> In draft-ecahc-moderation.md\r\n> <https://github.com/larseggert/moderation/pull/52#discussion_r1660553787>:\r\n>\r\n> > +intervenes after a message has been sent. The IETF mainly practices\r\n> +reactive moderation, with a spectrum from gentle reminders on- and\r\n> +off-list, all the way to suspension of posting rights and other ways\r\n> +of participating or communicating.\r\n>\r\n> This sounds like we want to retain sticking to mostly reactive moderation?\r\n> I think we want to leave this up to the moderation team to deicide as part\r\n> of their process definition.\r\n>\r\n> \u2014\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/larseggert/moderation/pull/52#pullrequestreview-2150557924>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/ABMKETYBQZT5MXBLRE37PPLZKD36ZAVCNFSM6AAAAABJ7ARNUOVHI2DSMVQWIX3LMV43YUDVNRWFEZLROVSXG5CSMV3GSZLXHMZDCNJQGU2TOOJSGQ>\r\n> .\r\n> You are receiving this because you authored the thread.Message ID:\r\n> ***@***.***>\r\n>\r\n",
+          "createdAt": "2024-07-01T07:19:29Z",
+          "updatedAt": "2024-07-01T07:19:29Z"
+        },
+        {
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "body": "@becarpenter proposed some changes.",
+          "createdAt": "2024-07-01T07:36:33Z",
+          "updatedAt": "2024-07-01T07:36:33Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6ALujk",
+          "commit": {
+            "abbreviatedOid": "8cc2229"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2024-07-01T06:50:03Z",
+          "updatedAt": "2024-07-01T06:51:03Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "This is written for mailing lists, but the new moderation approach is supposed to cover all types of participation channels.",
+              "createdAt": "2024-07-01T06:50:03Z",
+              "updatedAt": "2024-07-01T06:51:03Z"
+            },
+            {
+              "originalPosition": 10,
+              "body": "This sounds like we want to retain sticking to mostly reactive moderation? I think we want to leave this up to the moderation team to deicide as part of their process definition.",
+              "createdAt": "2024-07-01T06:51:00Z",
+              "updatedAt": "2024-07-01T06:51:03Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6AMEHI",
+          "commit": {
+            "abbreviatedOid": "5706004"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-07-01T07:38:36Z",
+          "updatedAt": "2024-07-01T07:38:36Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6AR-Xc",
+          "commit": {
+            "abbreviatedOid": "5706004"
+          },
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "All good for me, except typo s/eam/team/ on line 131",
+          "createdAt": "2024-07-01T20:29:12Z",
+          "updatedAt": "2024-07-01T20:29:12Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "id": "PR_kwDOJrr8CM50Bq-O",
+      "title": "Chairs SHOULD and participants MAY alert moderators",
+      "url": "https://github.com/larseggert/moderation/pull/53",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #45",
+      "createdAt": "2024-07-01T06:58:14Z",
+      "updatedAt": "2024-07-01T07:20:29Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "92631b1dbfb2afdb0c917e172ab7bad60411a413",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "fix-45",
+      "headRefOid": "5b4d1b870568d1820afb4de96a83a62c76246d41",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "wfm\r\n(via tiny screen & keyboard)\r\nRegards,\r\n        Brian Carpenter\r\n\r\nOn Mon, 1 Jul 2024, 18:58 Lars Eggert, ***@***.***> wrote:\r\n\r\n> Fixes #45 <https://github.com/larseggert/moderation/issues/45>\r\n> ------------------------------\r\n> You can view, comment on, or merge this pull request online at:\r\n>\r\n>   https://github.com/larseggert/moderation/pull/53\r\n> Commit Summary\r\n>\r\n>    - 5b4d1b8\r\n>    <https://github.com/larseggert/moderation/pull/53/commits/5b4d1b870568d1820afb4de96a83a62c76246d41>\r\n>    Chairs SHOULD and participants MAY alrert moderators\r\n>\r\n> File Changes\r\n>\r\n> (1 file <https://github.com/larseggert/moderation/pull/53/files>)\r\n>\r\n>    - *M* draft-ecahc-moderation.md\r\n>    <https://github.com/larseggert/moderation/pull/53/files#diff-cb5d1134e09d77b60ce2ea31e91a57bdb43af0c6700fba09cc55243b002d0b27>\r\n>    (20)\r\n>\r\n> Patch Links:\r\n>\r\n>    - https://github.com/larseggert/moderation/pull/53.patch\r\n>    - https://github.com/larseggert/moderation/pull/53.diff\r\n>\r\n> \u2014\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/larseggert/moderation/pull/53>, or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/ABMKETYNI7GSIE6E6W43DPLZKD4ZZAVCNFSM6AAAAABKE52U32VHI2DSMVQWIX3LMV43ASLTON2WKOZSGM4DGMBQHE4DEMA>\r\n> .\r\n> You are receiving this because your review was requested.Message ID:\r\n> ***@***.***>\r\n>\r\n",
+          "createdAt": "2024-07-01T07:20:28Z",
+          "updatedAt": "2024-07-01T07:20:28Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 54,
+      "id": "PR_kwDOJrr8CM50BsW2",
+      "title": "3 -> 5",
+      "url": "https://github.com/larseggert/moderation/pull/54",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #46",
+      "createdAt": "2024-07-01T07:01:43Z",
+      "updatedAt": "2024-07-01T07:21:45Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "92631b1dbfb2afdb0c917e172ab7bad60411a413",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "fix-46",
+      "headRefOid": "0a9d3e6b0f5c7dd794a0aba129153c5e7b7fd727",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "wfm\r\n(via tiny screen & keyboard)\r\nRegards,\r\n        Brian Carpenter\r\n\r\nOn Mon, 1 Jul 2024, 19:02 Lars Eggert, ***@***.***> wrote:\r\n\r\n> Fixes #46 <https://github.com/larseggert/moderation/issues/46>\r\n> ------------------------------\r\n> You can view, comment on, or merge this pull request online at:\r\n>\r\n>   https://github.com/larseggert/moderation/pull/54\r\n> Commit Summary\r\n>\r\n>    - 463a3e6\r\n>    <https://github.com/larseggert/moderation/pull/54/commits/463a3e60bfe2f4abc30355356f16554ab07c5c60>\r\n>    3 -> 5\r\n>\r\n> File Changes\r\n>\r\n> (1 file <https://github.com/larseggert/moderation/pull/54/files>)\r\n>\r\n>    - *M* draft-ecahc-moderation.md\r\n>    <https://github.com/larseggert/moderation/pull/54/files#diff-cb5d1134e09d77b60ce2ea31e91a57bdb43af0c6700fba09cc55243b002d0b27>\r\n>    (11)\r\n>\r\n> Patch Links:\r\n>\r\n>    - https://github.com/larseggert/moderation/pull/54.patch\r\n>    - https://github.com/larseggert/moderation/pull/54.diff\r\n>\r\n> \u2014\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/larseggert/moderation/pull/54>, or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/ABMKET35TAXHTWMR4KP54ZTZKD5GXAVCNFSM6AAAAABKE57BISVHI2DSMVQWIX3LMV43ASLTON2WKOZSGM4DGMBRGYZTCMA>\r\n> .\r\n> You are receiving this because your review was requested.Message ID:\r\n> ***@***.***>\r\n>\r\n",
+          "createdAt": "2024-07-01T07:21:44Z",
+          "updatedAt": "2024-07-01T07:21:44Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 55,
+      "id": "PR_kwDOJrr8CM50Bwa3",
+      "title": "Team self-selects, chair confirms",
+      "url": "https://github.com/larseggert/moderation/pull/55",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #50",
+      "createdAt": "2024-07-01T07:11:42Z",
+      "updatedAt": "2024-07-01T20:40:28Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "92631b1dbfb2afdb0c917e172ab7bad60411a413",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "fix-50",
+      "headRefOid": "1069baeaa2be1ca9d17f11a4d1e1232522671549",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "\" or when the moderator team decides one of their members should be removed\"\r\nThat needs explanation. Is this a majority vote or unanimous (except for the member in question)? Is it the result of a conflict resolution procedure?  How do members of the community complain about a moderator?\r\nMaybe flag this as an open issue for now?",
+          "createdAt": "2024-07-01T20:40:28Z",
+          "updatedAt": "2024-07-01T20:40:28Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 56,
+      "id": "PR_kwDOJrr8CM50Bxh3",
+      "title": "Ombudsteam liaison",
+      "url": "https://github.com/larseggert/moderation/pull/56",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Came up in email discussion, WDYT?",
+      "createdAt": "2024-07-01T07:14:31Z",
+      "updatedAt": "2024-07-01T20:42:17Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "92631b1dbfb2afdb0c917e172ab7bad60411a413",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "ombuds-liaison",
+      "headRefOid": "3af4910d3d046029f0f09bf661ba5072131eb343",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "wfm",
+          "createdAt": "2024-07-01T20:42:16Z",
+          "updatedAt": "2024-07-01T20:42:16Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 57,
+      "id": "PR_kwDOJrr8CM50B1zU",
+      "title": "Emergency actions",
+      "url": "https://github.com/larseggert/moderation/pull/57",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #51",
+      "createdAt": "2024-07-01T07:25:00Z",
+      "updatedAt": "2024-07-01T20:46:48Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "92631b1dbfb2afdb0c917e172ab7bad60411a413",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "fix-51",
+      "headRefOid": "93eefc4a21a917d61034fdc964d79b5d4df9eabb",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Good approach. Just one possible clarifcation:\r\nOLD:\r\nThis protection MAY include the need to take emergency moderation actions.\r\nNEW:\r\nThis protection MAY include the need for LLC staff to take emergency moderation actions.\r\n\r\n(It isn't the Board that will do it personally!)\r\n\r\n",
+          "createdAt": "2024-07-01T20:46:47Z",
+          "updatedAt": "2024-07-01T20:46:47Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 58,
+      "id": "PR_kwDOJrr8CM50E7Wv",
+      "title": "Nits from Russ",
+      "url": "https://github.com/larseggert/moderation/pull/58",
+      "state": "MERGED",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-07-01T14:06:30Z",
+      "updatedAt": "2024-07-01T20:26:30Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "92631b1dbfb2afdb0c917e172ab7bad60411a413",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "nits-russ",
+      "headRefOid": "1ed1d1edc5f586334e781fe4703c242b40d0958f",
+      "closedAt": "2024-07-01T14:07:20Z",
+      "mergedAt": "2024-07-01T14:07:20Z",
+      "mergedBy": "larseggert",
+      "mergeCommit": {
+        "oid": "17a35f2354af38936d2f274212c330b9e5f0248f"
+      },
+      "comments": [
+        {
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Looks right to me.",
+          "createdAt": "2024-07-01T14:12:44Z",
+          "updatedAt": "2024-07-01T14:12:44Z"
+        },
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "wfm",
+          "createdAt": "2024-07-01T20:26:28Z",
+          "updatedAt": "2024-07-01T20:26:28Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 59,
+      "id": "PR_kwDOJrr8CM50FLgq",
+      "title": "Add to Security Considerations",
+      "url": "https://github.com/larseggert/moderation/pull/59",
+      "state": "OPEN",
+      "author": "russhousley",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Limit the likelihood of disruptive behaiviour by one IETF participant from discouraging participation by other IETF participants.",
+      "createdAt": "2024-07-01T14:37:25Z",
+      "updatedAt": "2024-07-01T15:13:45Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "17a35f2354af38936d2f274212c330b9e5f0248f",
+      "headRepository": "russhousley/moderation",
+      "headRefName": "sec-con-addition",
+      "headRefOid": "536321e1e2ee76728b142ecab831fa915813949f",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOJrr8CM6APmUm",
+          "commit": {
+            "abbreviatedOid": "e43c75e"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-07-01T14:39:20Z",
+          "updatedAt": "2024-07-01T14:39:21Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\nof disruptive behavior by one IETF participant from discouraging\r\n```\r\nBut is it really always one? There have been discussions where several participants went over the line, often in response to each other.",
+              "createdAt": "2024-07-01T14:39:20Z",
+              "updatedAt": "2024-07-01T14:39:21Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6AP36e",
+          "commit": {
+            "abbreviatedOid": "e43c75e"
+          },
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-07-01T15:10:43Z",
+          "updatedAt": "2024-07-01T15:10:43Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "Thanks fro fix the typo.  \r\n\r\ns/by one IETF participant/by a few IETF participants/",
+              "createdAt": "2024-07-01T15:10:43Z",
+              "updatedAt": "2024-07-01T15:10:44Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6AP5SC",
+          "commit": {
+            "abbreviatedOid": "e995f69"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-07-01T15:13:27Z",
+          "updatedAt": "2024-07-01T15:13:27Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\nof disruptive behavior by a few IETF participants from discouraging\r\n```",
+              "createdAt": "2024-07-01T15:13:27Z",
+              "updatedAt": "2024-07-01T15:13:27Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOJrr8CM6AP5c_",
+          "commit": {
+            "abbreviatedOid": "536321e"
+          },
+          "author": "larseggert",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-07-01T15:13:45Z",
+          "updatedAt": "2024-07-01T15:13:45Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
