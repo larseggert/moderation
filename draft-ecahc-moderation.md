@@ -97,7 +97,14 @@ after, and subsumes, the moderator team for the IETF discussion list
 
 # Conventions and Definitions
 
-{::boilerplate bcp14-tagged}
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+document are to be interpreted in their normal English sense; they are shown
+in uppercase for emphasis and clarity.
+
+{:aside}
+> TODO: Get feedback from the community whether this redefinition of BCP14
+> terms in process documents is something they support.
 
 # Motivation {#motiv}
 
@@ -108,14 +115,14 @@ community has defined anti-harassment procedures {{!RFC7776}},
 empowering an ombudsteam {{OT}} to take necessary action.
 
 Dealing with *disruptive* behavior, however, is not part of the role
-of the ombudsteam. {{?RFC3934}} task the chairs of each IETF working
+of the ombudsteam. {{?RFC3934}} tasks the chairs of each IETF working
 group with moderating their group's in-person meetings and mailing
 lists, and an IESG statement {{MODML}} describes additional guidance
 to working group chairs about how - but not when - to moderate their
 lists.
 
 For IETF mailing lists not associated with a working group, another
-IESG statement clarifies {{DP}} that the list administrators are
+IESG statement {{DP}} clarifies that the list administrators are
 tasked with moderation. And the IETF list for general discussions
 has, mostly for historic reasons, a team of moderators that are not
 list administrators and operate by a different set of processes
