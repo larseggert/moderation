@@ -5,14 +5,14 @@
 Network Working Group                                          L. Eggert
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                         A. Cooper
-Expires: 2 January 2025                                              KGI
+Expires: 3 January 2025                                              KGI
                                                                 J. Arkko
                                                                 Ericsson
                                                               R. Housley
                                                           Vigil Security
                                                             B. Carpenter
                                                        Univ. of Auckland
-                                                             1 July 2024
+                                                             2 July 2024
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 January 2025.
+   This Internet-Draft will expire on 3 January 2025.
 
 Copyright Notice
 
@@ -139,7 +139,7 @@ Table of Contents
    participation has occurred.  The IETF historically mainly practiced
    reactive moderation, with a spectrum from gentle reminders on- and
    off-list, all the way to suspension of posting rights and other ways
-   of participating or communicating.  It is up to the moderator eam to
+   of participating or communicating.  It is up to the moderator team to
    decide which mix of preemptive and reactive moderation to employ as
    part of their processes.
 
