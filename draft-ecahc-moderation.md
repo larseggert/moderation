@@ -128,7 +128,7 @@ where moderators intervene after problematic participation has occurred. The
 IETF historically mainly practiced reactive moderation, with a spectrum from
 gentle reminders on- and off-list, all the way to suspension of posting rights
 and other ways of participating or communicating. It is up to the moderator
-eam to decide which mix of preemptive and reactive moderation to employ as
+team to decide which mix of preemptive and reactive moderation to employ as
 part of their processes.
 
 In addition, {{?RFC3683}} defines a process for revoking an
