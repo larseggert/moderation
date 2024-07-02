@@ -335,7 +335,8 @@ ombudsteam {{OT}}, whose focus on anti-harassment and operation
 SHALL remain unchanged. The moderator team and ombudsteam are
 expected to work together in cases that may involve both disruptive
 behavior and harassment; they may determine the most effective way to
-do so in each case.
+do so in each case. For example, the ombudsteam MAY decide to have
+one of their members serve as a liaison to the moderator team.
 
 The ombudsteam has strict rules of confidentiality. If a moderation
 case overlaps with an ombudsteam case, confidential information MUST
