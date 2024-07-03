@@ -203,12 +203,19 @@ in {{motiv}}.
 
 ## Scope
 
-This IETF moderator team consists of a small number of individuals
-(no less than three) that SHALL moderate all the IETF's various
+The IETF moderator team consists of a number of individuals
+that SHALL moderate all the IETF's various
 current and future participation channels. At present, these include
 mailing lists, chat channels, and discussions in other systems that
 the IETF or WGs have chosen to employ, such as GitHub repositories,
 Wikis, or issue trackers.
+
+The moderator team consists of no less than five individuals,
+to establish some minimum basis for consensus-based team decisions
+and geographic spread, but realistically needs to have several more
+members to spread the moderation load and provide redundancy
+in the cases of absences, etc. It is up to the moderator team to determine
+a useful team size.
 
 It is not expected that the moderator team will be monitoring every
 IETF channel, but rather that participants will proactively flag
@@ -372,6 +379,7 @@ This document has no IANA actions.
 
 These individuals suggested improvements to this document:
 
+- Chris Box
 - Eric Rescorla
 - Jay Daley
 - Melinda Shore
