@@ -86,7 +86,8 @@ Table of Contents
      4.4.  Training
      4.5.  Appeals
      4.6.  Team Diversity
-     4.7.  Relation to Ombudsteam
+     4.7.  Relation to the Ombudsteam
+     4.8.  Relation to the IETF LLC
    5.  Changes to Existing RFCs
    6.  Security Considerations
    7.  IANA Considerations
@@ -342,7 +343,7 @@ Table of Contents
    problematic behavior can identify a moderator they feel comfortable
    contacting.
 
-4.7.  Relation to Ombudsteam
+4.7.  Relation to the Ombudsteam
 
    The moderator team SHALL complement the efforts of the IETF
    ombudsteam [OT], whose focus on anti-harassment and operation SHALL
@@ -355,6 +356,22 @@ Table of Contents
    The ombudsteam has strict rules of confidentiality.  If a moderation
    case overlaps with an ombudsteam case, confidential information MUST
    NOT be shared between the teams.
+
+4.8.  Relation to the IETF LLC
+
+   The Board of Directors of the IETF Administration LLC (IETF LLC) has
+   fiduciary duty for the overall organization, which includes the duty
+   to protect the organization from legal risk that may arise from
+   illegal, vulgar, or manifestly harassing behavior of IETF
+   participants.
+
+   This protection MAY include the need for the LLC to take emergency
+   moderation actions.  These emergency actions are expected to be
+   extremely rare, of temporary nature, and the indicdents that required
+   them SHOULD be immediately raised with the moderator team to let them
+   determine any follow-up or more permanent moderation action.  These
+   incidents and the taken emergency action SHOULD also be communitated
+   to the IETF community.
 
 5.  Changes to Existing RFCs
 
