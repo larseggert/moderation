@@ -205,11 +205,6 @@ Table of Contents
    IETF.  The creation of this team intends to address the issues
    identified in Section 3.
 
-      |  TODO: Decide whether moderation rights remain also with WG
-      |  chairs, list admins, and others who currently have them, or
-      |  whether all moderation rights centralize with the moderator
-      |  team.
-
 4.1.  Scope
 
    The IETF moderator team consists of a number of individuals that
@@ -227,19 +222,16 @@ Table of Contents
    a useful team size.
 
    It is not expected that the moderator team will be monitoring every
-   IETF channel, but rather that participants will proactively flag
+   IETF channel, but rather that participants MAY and chairs SHOULD flag
    concerns about disruptive behavior to the moderator team.  However,
    the moderator team SHOULD actively monitor a small set of key
    participation channels, including, for example, the IETF discussion
    and last-call mailing lists or the IETF plenary chat channel.  The
    moderator team should decide which channels are in this set based on
-   their own judgment and community suggestions.
-
-      |  TODO: Decide whether chairs and list admins should retain the
-      |  ability to moderate their lists in addition to the moderator
-      |  team, or whether chair and list admins should only inform the
-      |  moderator team of potentially disruptive behavior and let them
-      |  deal with it.
+   their own judgment and community suggestions.  (Note that some
+   participation channels, such as the examples given in the previous
+   sentence, have no chairs or other community leadership, so the
+   moderation team MUST handle those.)
 
    It is important to note that the moderation team only moderates
    _public_ IETF participation channels.  Their mandate does not extend
@@ -254,13 +246,14 @@ Table of Contents
    a task of the relevant group's management, such as WG chairs.
    However, moderators are available for consultation and assistance
    should issues arise, and they MAY proactively confer with the group
-   management over potential patterns of behavior.  When moderators
-   observe or are alerted to problematic behavior on such channels, they
-   SHOULD consult with the group's management to jointly determine an
-   appropriate moderation response.  The moderation team should respect
-   the views of the group management in such cases, and the group
-   management should respect the moderation team's task of upholding an
-   overall IETF-wide uniformity for moderation.
+   management over potential patterns of behavior.  Group participants
+   MAY and chairs SHOULD alert the moderators to problematic behavior.
+   When moderators observe or are alerted to problematic behavior on
+   such channels, they SHOULD consult with the group's management to
+   jointly determine an appropriate moderation response.  The moderation
+   team should respect the views of the group management in such cases,
+   and the group management should respect the moderation team's task of
+   upholding an overall IETF-wide uniformity for moderation.
 
    The moderator team MAY initiate moderation actions by itself;
    individual participants SHOULD also alert the team to disruptive
