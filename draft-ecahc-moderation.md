@@ -335,7 +335,7 @@ Team diversity is also important to ensure any participant observing
 problematic behavior can identify a moderator they feel comfortable
 contacting.
 
-## Relation to Ombudsteam
+## Relation to the Ombudsteam
 
 The moderator team SHALL complement the efforts of the IETF
 ombudsteam {{OT}}, whose focus on anti-harassment and operation
@@ -348,6 +348,20 @@ one of their members serve as a liaison to the moderator team.
 The ombudsteam has strict rules of confidentiality. If a moderation
 case overlaps with an ombudsteam case, confidential information MUST
 NOT be shared between the teams.
+
+## Relation to the IETF LLC
+
+The Board of Directors of the IETF Administration LLC (IETF LLC) has
+fiduciary duty for the overall organization, which includes the duty
+to protect the organization from legal risk that may arise from
+illegal, vulgar, or manifestly harassing behavior of IETF participants.
+
+This protection MAY include the need for the LLC to take emergency moderation
+actions. These emergency actions are expected to be extremely rare, of temporary
+nature, and the indicdents that required them SHOULD be immediately raised with
+the moderator team to let them determine any follow-up or more permanent
+moderation action. These incidents and the taken emergency action SHOULD also be
+communitated to the IETF community.
 
 # Changes to Existing RFCs
 
