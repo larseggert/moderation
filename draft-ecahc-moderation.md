@@ -115,18 +115,28 @@ community has defined anti-harassment procedures {{!RFC7776}},
 empowering an ombudsteam {{OT}} to take necessary action.
 
 Dealing with *disruptive* behavior, however, is not part of the role
-of the ombudsteam. {{?RFC3934}} task the chairs of each IETF working
+of the ombudsteam. {{?RFC3934}} tasks the chairs of each IETF working
 group with moderating their group's in-person meetings and mailing
 lists, and an IESG statement {{MODML}} describes additional guidance
 to working group chairs about how - but not when - to moderate their
 lists.
 
 For IETF mailing lists not associated with a working group, another
-IESG statement clarifies {{DP}} that the list administrators are
+IESG statement {{DP}} clarifies that the list administrators are
 tasked with moderation. And the IETF list for general discussions
 has, mostly for historic reasons, a team of moderators that are not
 list administrators and operate by a different set of processes
 {{?RFC9245}}.
+
+Note that the term "moderation" can refer both to *preemptive*
+moderation, where moderators review attempted participation before it occurs
+(such as reviewing messages to a mailing list), and *reactive* moderation,
+where moderators intervene after problematic participation has occurred. The
+IETF historically mainly practiced reactive moderation, with a spectrum from
+gentle reminders on- and off-list, all the way to suspension of posting rights
+and other ways of participating or communicating. It is up to the moderator
+team to decide which mix of preemptive and reactive moderation to employ as
+part of their processes.
 
 In addition, {{?RFC3683}} defines a process for revoking an
 individual's posting rights to IETF mailing lists following a
@@ -332,7 +342,8 @@ ombudsteam {{OT}}, whose focus on anti-harassment and operation
 SHALL remain unchanged. The moderator team and ombudsteam are
 expected to work together in cases that may involve both disruptive
 behavior and harassment; they may determine the most effective way to
-do so in each case.
+do so in each case. For example, the ombudsteam MAY decide to have
+one of their members serve as a liaison to the moderator team.
 
 The ombudsteam has strict rules of confidentiality. If a moderation
 case overlaps with an ombudsteam case, confidential information MUST
@@ -370,5 +381,6 @@ These individuals suggested improvements to this document:
 - Melinda Shore
 - Michael Richardson
 - Rich Salz
+- Joel Halpern
 
 --- back
