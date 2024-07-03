@@ -196,11 +196,6 @@ IETF's various participation channels: a moderator team for the IETF.
 The creation of this team intends to address the issues identified
 in {{motiv}}.
 
-{:aside}
-> TODO: Decide whether moderation rights remain also with WG chairs,
-> list admins, and others who currently have them, or whether all
-> moderation rights centralize with the moderator team.
-
 ## Scope
 
 The IETF moderator team consists of a number of individuals
@@ -218,19 +213,15 @@ in the cases of absences, etc. It is up to the moderator team to determine
 a useful team size.
 
 It is not expected that the moderator team will be monitoring every
-IETF channel, but rather that participants will proactively flag
+IETF channel, but rather that participants MAY and chairs SHOULD flag
 concerns about disruptive behavior to the moderator team. However,
 the moderator team SHOULD actively monitor a small set of key
 participation channels, including, for example, the IETF discussion
 and last-call mailing lists or the IETF plenary chat channel. The
 moderator team should decide which channels are in this set based on
-their own judgment and community suggestions.
-
-{:aside}
-> TODO: Decide whether chairs and list admins should retain the
-> ability to moderate their lists in addition to the moderator team,
-> or whether chair and list admins should only inform the moderator
-> team of potentially disruptive behavior and let them deal with it.
+their own judgment and community suggestions. (Note that some participation
+channels, such as the examples given in the previous sentence, have no
+chairs or other community leadership, so the moderation team MUST handle those.)
 
 It is important to note that the moderation team only
 moderates *public* IETF participation channels. Their mandate does
@@ -245,7 +236,8 @@ channels and in-person, remote, or interim meetings remains primarily a
 task of the relevant group's management, such as WG chairs. However,
 moderators are available for consultation and
 assistance should issues arise, and they MAY proactively confer with the group
-management over potential patterns of behavior. When moderators
+management over potential patterns of behavior. Group participants MAY
+and chairs SHOULD alert the moderators to problematic behavior. When moderators
 observe or are alerted to problematic behavior on such channels, they
 SHOULD consult with the group's management to jointly determine an
 appropriate moderation response. The moderation team should respect
