@@ -5,14 +5,14 @@
 Network Working Group                                          L. Eggert
 Internet-Draft                                                   Mozilla
 Intended status: Best Current Practice                         A. Cooper
-Expires: 3 January 2025                                              KGI
+Expires: 4 January 2025                                              KGI
                                                                 J. Arkko
                                                                 Ericsson
                                                               R. Housley
                                                           Vigil Security
                                                             B. Carpenter
                                                        Univ. of Auckland
-                                                             2 July 2024
+                                                             3 July 2024
 
 
                        IETF Community Moderation
@@ -58,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 3 January 2025.
+   This Internet-Draft will expire on 4 January 2025.
 
 Copyright Notice
 
@@ -365,6 +365,10 @@ Table of Contents
    Potential abuse of the moderation process for the suppression of
    undesired opinions is counteracted by the availability of an appeals
    process, per Section 4.5.
+
+   The actions of the moderation team are intended to limit the
+   likelihood of disruptive behavior by a few IETF participants from
+   discouraging participation by other IETF participants.
 
 7.  IANA Considerations
 
