@@ -115,18 +115,28 @@ community has defined anti-harassment procedures {{!RFC7776}},
 empowering an ombudsteam {{OT}} to take necessary action.
 
 Dealing with *disruptive* behavior, however, is not part of the role
-of the ombudsteam. {{?RFC3934}} task the chairs of each IETF working
+of the ombudsteam. {{?RFC3934}} tasks the chairs of each IETF working
 group with moderating their group's in-person meetings and mailing
 lists, and an IESG statement {{MODML}} describes additional guidance
 to working group chairs about how - but not when - to moderate their
 lists.
 
 For IETF mailing lists not associated with a working group, another
-IESG statement clarifies {{DP}} that the list administrators are
+IESG statement {{DP}} clarifies that the list administrators are
 tasked with moderation. And the IETF list for general discussions
 has, mostly for historic reasons, a team of moderators that are not
 list administrators and operate by a different set of processes
 {{?RFC9245}}.
+
+Note that the term "moderation" can refer both to *preemptive*
+moderation, where moderators review attempted participation before it occurs
+(such as reviewing messages to a mailing list), and *reactive* moderation,
+where moderators intervene after problematic participation has occurred. The
+IETF historically mainly practiced reactive moderation, with a spectrum from
+gentle reminders on- and off-list, all the way to suspension of posting rights
+and other ways of participating or communicating. It is up to the moderator
+team to decide which mix of preemptive and reactive moderation to employ as
+part of their processes.
 
 In addition, {{?RFC3683}} defines a process for revoking an
 individual's posting rights to IETF mailing lists following a
@@ -186,34 +196,32 @@ IETF's various participation channels: a moderator team for the IETF.
 The creation of this team intends to address the issues identified
 in {{motiv}}.
 
-{:aside}
-> TODO: Decide whether moderation rights remain also with WG chairs,
-> list admins, and others who currently have them, or whether all
-> moderation rights centralize with the moderator team.
-
 ## Scope
 
-This IETF moderator team consists of a small number of individuals
-(no less than three) that SHALL moderate all the IETF's various
+The IETF moderator team consists of a number of individuals
+that SHALL moderate all the IETF's various
 current and future participation channels. At present, these include
 mailing lists, chat channels, and discussions in other systems that
 the IETF or WGs have chosen to employ, such as GitHub repositories,
 Wikis, or issue trackers.
 
+The moderator team consists of no less than five individuals,
+to establish some minimum basis for consensus-based team decisions
+and geographic spread, but realistically needs to have several more
+members to spread the moderation load and provide redundancy
+in the cases of absences, etc. It is up to the moderator team to determine
+a useful team size.
+
 It is not expected that the moderator team will be monitoring every
-IETF channel, but rather that participants will proactively flag
+IETF channel, but rather that participants MAY and chairs SHOULD flag
 concerns about disruptive behavior to the moderator team. However,
 the moderator team SHOULD actively monitor a small set of key
 participation channels, including, for example, the IETF discussion
 and last-call mailing lists or the IETF plenary chat channel. The
 moderator team should decide which channels are in this set based on
-their own judgment and community suggestions.
-
-{:aside}
-> TODO: Decide whether chairs and list admins should retain the
-> ability to moderate their lists in addition to the moderator team,
-> or whether chair and list admins should only inform the moderator
-> team of potentially disruptive behavior and let them deal with it.
+their own judgment and community suggestions. (Note that some participation
+channels, such as the examples given in the previous sentence, have no
+chairs or other community leadership, so the moderation team MUST handle those.)
 
 It is important to note that the moderation team only
 moderates *public* IETF participation channels. Their mandate does
@@ -228,7 +236,8 @@ channels and in-person, remote, or interim meetings remains primarily a
 task of the relevant group's management, such as WG chairs. However,
 moderators are available for consultation and
 assistance should issues arise, and they MAY proactively confer with the group
-management over potential patterns of behavior. When moderators
+management over potential patterns of behavior. Group participants MAY
+and chairs SHOULD alert the moderators to problematic behavior. When moderators
 observe or are alerted to problematic behavior on such channels, they
 SHOULD consult with the group's management to jointly determine an
 appropriate moderation response. The moderation team should respect
@@ -327,18 +336,33 @@ Team diversity is also important to ensure any participant observing
 problematic behavior can identify a moderator they feel comfortable
 contacting.
 
-## Relation to Ombudsteam
+## Relation to the Ombudsteam
 
 The moderator team SHALL complement the efforts of the IETF
 ombudsteam {{OT}}, whose focus on anti-harassment and operation
 SHALL remain unchanged. The moderator team and ombudsteam are
 expected to work together in cases that may involve both disruptive
 behavior and harassment; they may determine the most effective way to
-do so in each case.
+do so in each case. For example, the ombudsteam MAY decide to have
+one of their members serve as a liaison to the moderator team.
 
 The ombudsteam has strict rules of confidentiality. If a moderation
 case overlaps with an ombudsteam case, confidential information MUST
 NOT be shared between the teams.
+
+## Relation to the IETF LLC
+
+The Board of Directors of the IETF Administration LLC (IETF LLC) has
+fiduciary duty for the overall organization, which includes the duty
+to protect the organization from legal risk that may arise from
+illegal, vulgar, or manifestly harassing behavior of IETF participants.
+
+This protection MAY include the need for the LLC to take emergency moderation
+actions. These emergency actions are expected to be extremely rare, of temporary
+nature, and the indicdents that required them SHOULD be immediately raised with
+the moderator team to let them determine any follow-up or more permanent
+moderation action. These incidents and the taken emergency action SHOULD also be
+communitated to the IETF community.
 
 # Changes to Existing RFCs
 
@@ -358,6 +382,10 @@ Potential abuse of the moderation process for the suppression of
 undesired opinions is counteracted by the availability of an appeals
 process, per {{appeals}}.
 
+The actions of the moderation team are intended to limit the likelihood
+of disruptive behavior by a few IETF participants from discouraging
+participation by other IETF participants.
+
 # IANA Considerations
 
 This document has no IANA actions.
@@ -366,10 +394,12 @@ This document has no IANA actions.
 
 These individuals suggested improvements to this document:
 
+- Chris Box
 - Eric Rescorla
 - Jay Daley
 - Melinda Shore
 - Michael Richardson
 - Rich Salz
+- Joel Halpern
 
 --- back
