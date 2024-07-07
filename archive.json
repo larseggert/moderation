@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-07-04T00:18:10.191432+00:00",
+  "timestamp": "2024-07-07T00:20:22.913719+00:00",
   "repo": "larseggert/moderation",
   "labels": [
     {
@@ -2567,13 +2567,13 @@
       ],
       "body": "Fixes #50",
       "createdAt": "2024-07-01T07:11:42Z",
-      "updatedAt": "2024-07-03T06:31:25Z",
+      "updatedAt": "2024-07-04T06:11:30Z",
       "baseRepository": "larseggert/moderation",
       "baseRefName": "main",
-      "baseRefOid": "92631b1dbfb2afdb0c917e172ab7bad60411a413",
+      "baseRefOid": "8d65ef625e4432d430a04a8433cc53a2bc62331b",
       "headRepository": "larseggert/moderation",
       "headRefName": "fix-50",
-      "headRefOid": "1069baeaa2be1ca9d17f11a4d1e1232522671549",
+      "headRefOid": "9ebe5bc0c0a6527ae02f638354f341a56ed7e564",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
