@@ -9,7 +9,7 @@ date:
 consensus: true
 v: 3
 venue:
-    mail: gendispatch@ietf.org
+    mail: mod-discuss@ietf.org
     github: larseggert/moderation
     latest: https://larseggert.github.io/moderation/draft-ecahc-moderation.html
 
