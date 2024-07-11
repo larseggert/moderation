@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-07-09T00:18:12.657480+00:00",
+  "timestamp": "2024-07-11T00:19:21.933771+00:00",
   "repo": "larseggert/moderation",
   "labels": [
     {
@@ -2875,6 +2875,40 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 61,
+      "id": "PR_kwDOJrr8CM50-aT5",
+      "title": "Discussion on mod-discuss@",
+      "url": "https://github.com/larseggert/moderation/pull/61",
+      "state": "OPEN",
+      "author": "larseggert",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "https://mailarchive.ietf.org/arch/browse/mod-discuss/\r\n\r\nSince it was just created.",
+      "createdAt": "2024-07-10T14:11:30Z",
+      "updatedAt": "2024-07-10T20:37:30Z",
+      "baseRepository": "larseggert/moderation",
+      "baseRefName": "main",
+      "baseRefOid": "8d65ef625e4432d430a04a8433cc53a2bc62331b",
+      "headRepository": "larseggert/moderation",
+      "headRefName": "mod-discuss",
+      "headRefOid": "b2b35fce8182513db3772eb801e07797113c4b70",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "becarpenter",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Yes, just do it",
+          "createdAt": "2024-07-10T20:37:29Z",
+          "updatedAt": "2024-07-10T20:37:29Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
